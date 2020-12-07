@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about="">
+</rdf:Description>
+</rdf:RDF>
+<version>6</version>
+<data>
+<title>KMP</title>
+<timer>
+<include-timer>0</include-timer>
+<seconds>59</seconds>
+</timer>
+<reading>
+<reading-text></reading-text>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+</reading>
+<questions>
+<question-record>
+<question>O que &amp;#x00e9; uma Substring?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Uma subcadeia (tamb&amp;#x00e9;m chamada substring) de uma cadeia de caracteres S &amp;#x00e9; outra cadeia S&apos; que ocorre dentro de S no qual os caracteres s&amp;#x00e3;o seguidos um dos outros.</text>
+<feedback>Correto, exemplo : ana &amp;#x00e9; substring de banana.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Uma subcadeia (tamb&amp;#x00e9;m chamada substring) de uma cadeia de caracteres S &amp;#x00e9; outra cadeia S&apos; que ocorre dentro de S no qual os caracteres n&amp;#x00e3;o s&amp;#x00e3;o seguidos um dos outros.</text>
+<feedback>Incorreto, neste caso seria subsequ&amp;#x00ea;ncia.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Uma subcadeia (tamb&amp;#x00e9;m chamada substring) de uma cadeia de caracteres S &amp;#x00e9; outra cadeia S&apos; que ocorre no come&amp;#x00e7;o de S.</text>
+<feedback>Incorreto, neste caso seria prefixo.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Uma subcadeia (tamb&amp;#x00e9;m chamada substring) de uma cadeia de caracteres S &amp;#x00e9; outra cadeia S&apos; que ocorre no final de S.</text>
+<feedback>Incorreto, neste caso seria sufixo.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>O que significa KMP ?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Nome dos 3 criadores : Knuth, Morris e Pratt</text>
+<feedback>Correto, este foram o nome dos 3 criadores do algoritmo, que o nomeou com a inicial de cada um.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Nome do criador : Knuth Morris Pratt</text>
+<feedback>Incorreto, o algoritmo foi feito por 3 criadores</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Nome do criador : Kenam Milton Pontes</text>
+<feedback>Incorreto, o algoritmo foi feito por 3 criadores</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Nome dos 3 criadores : Kenam Milton Pedro</text>
+<feedback>Incorreto, o nome dos criadores est&amp;#x00e1; incorreto</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Para que serve o algoritmo KMP ?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Problema da busca de subsequencia</text>
+<feedback>Incorreto, KMP n&amp;#x00e3;o est&amp;#x00e1; relacionado com subsequencia</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Problema da substitui&amp;#x00e7;&amp;#x00e3;o de substring</text>
+<feedback>Incorreto, KMP n&amp;#x00e3;o est&amp;#x00e1; relacionado com substitui&amp;#x00e7;&amp;#x00e3;o</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Problema da busca de substring</text>
+<feedback>Correto, KMP resolve o problema de busca de substring</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Problema da substitui&amp;#x00e7;&amp;#x00e3;o de subsequencia</text>
+<feedback>Incorreto, KMP n&amp;#x00e3;o est&amp;#x00e1; relacionado com subsequencia e nem com substitui&amp;#x00e7;&amp;#x00e3;o</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Qual conceito &amp;#x00e9; introduzido com este algoritmo KMP ? </question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Esse algoritmo introduz o conceito de strings, que &amp;#x00e9; fundamental em v&amp;#x00e1;rias &amp;#x00e1;reas da Computa&amp;#x00e7;&amp;#x00e3;o</text>
+<feedback>Incorreto, por mais que pareca correto, a sua ideia princial &amp;#x00e9; relacionado com aut&amp;#x00f4;matos de estados. </feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Esse algoritmo introduz o conceito de programa&amp;#x00e7;&amp;#x00e3;o din&amp;#x00e2;mica , que &amp;#x00e9; fundamental em v&amp;#x00e1;rias &amp;#x00e1;reas da Computa&amp;#x00e7;&amp;#x00e3;o</text>
+<feedback>Incorreto, ele n&amp;#x00e3;o introduz o conceito de programa&amp;#x00e7;&amp;#x00e3;o din&amp;#x00e2;mica.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Esse algoritmo introduz o conceito de divis&amp;#x00e3;o e conquista, que &amp;#x00e9; fundamental em v&amp;#x00e1;rias &amp;#x00e1;reas da Computa&amp;#x00e7;&amp;#x00e3;o</text>
+<feedback>Incorreto, ele n&amp;#x00e3;o introduz o conceito de divis&amp;#x00e3;o e conquista.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Esse algoritmo introduz o conceito de aut&amp;#x00f4;mato de estados, que &amp;#x00e9; fundamental em v&amp;#x00e1;rias &amp;#x00e1;reas da Computa&amp;#x00e7;&amp;#x00e3;o</text>
+<feedback>Correto, a ideia de aut&amp;#x00f4;matos de estados ser&amp;#x00e1; abordada neste question&amp;#x00e1;rio mais para frente.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Qual a complexidade do algortimo KMP ?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>O(N)</text>
+<feedback>Correto, o motivo de sua complexidade ser&amp;#x00e1; abordada mais para frente</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>N * log(N)</text>
+<feedback>Incorreto, n&amp;#x00e3;o h&amp;#x00e1; necessidade de acrescentar um log(N) para cada itera&amp;#x00e7;&amp;#x00e3;o de N</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>log(N)</text>
+<feedback> Incorreto, N&amp;#x00e3;o &amp;#x00e9; poss&amp;#x00ed;vel verificar a quantidade de substrings dentro de uma string sem ao menos passar pela string toda, que neste caso ja temos um N.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>N&amp;#x00b2;</text>
+<feedback>Incorreto, este &amp;#x00e9; a complexidade de um algoritmo naive</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Qual a ideia geral do algoritmo?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Quando encontramos um conflito entre txt[i] e pat[j], &amp;#x00e9; necess&amp;#x00e1;rio retroceder i e passar a comparar txt[i-j+1..] com pat[0..].</text>
+<feedback>Incorreto, n&amp;#x00e3;o &amp;#x00e9; necess&amp;#x00e1;rio retroceder i.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Quando encontramos um conflito entre txt[i] e pat[i], n&amp;#x00e3;o &amp;#x00e9; necess&amp;#x00e1;rio retroceder i e passar a comparar txt[i+1..] com pat[0..].  </text>
+<feedback>Incorreto, o conflito n&amp;#x00e3;o &amp;#x00e9; entre txt[i] e pat[i]</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Quando encontramos um conflito entre txt[i] e pat[i], &amp;#x00e9; necess&amp;#x00e1;rio retroceder i e passar a comparar txt[i-j+1..] com pat[0..].  Basta
+encontrar o comprimento do maior prefixo de pat[0..] que &amp;#x00e9; sufixo de txt[..i],
+ou seja, encontrar o maior k tal que pat[0..k-1] &amp;#x00e9; igual a txt[i-k+1..i],
+e passar a comparar txt[i+1..] com pat[k..].</text>
+<feedback>Incorreto, o conflito n&amp;#x00e3;o &amp;#x00e9; entre txt[i] e pat[i] e tamb&amp;#x00e9;m &amp;#x00e9; necess&amp;#x00e1;rio retroceder i.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Quando encontramos um conflito entre txt[i] e pat[j], n&amp;#x00e3;o &amp;#x00e9; necess&amp;#x00e1;rio retroceder i e passar a comparar txt[i-j+1..] com pat[0..]. </text>
+<feedback>Correto, sua complexidade &amp;#x00e9; linear exatamente por esse fato.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Como &amp;#x00e9; a execu&amp;#x00e7;&amp;#x00e3;o do algoritmo KMP ?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>O algoritmo KMP examina os caracteres de txt um a um, da esquerda para a direita, retrocedendo quando necess&amp;#x00e1;rio. Em cada itera&amp;#x00e7;&amp;#x00e3;o, o algoritmo sabe qual posi&amp;#x00e7;&amp;#x00e3;o  k  de pat deve ser emparelhada com a pr&amp;#x00f3;xima posi&amp;#x00e7;&amp;#x00e3;o i+1 de txt.  Em outras palavras, no fim de cada itera&amp;#x00e7;&amp;#x00e3;o, o algoritmo sabe qual &amp;#x00ed;ndice  k  deve fazer o papel de j na pr&amp;#x00f3;xima itera&amp;#x00e7;&amp;#x00e3;o.</text>
+<feedback>Incorreto, o algoritmo n&amp;#x00e3;o retrocede.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O algoritmo KMP examina os caracteres de txt de 2 em 2, da esquerda para a direita, sem nunca retroceder. Em cada itera&amp;#x00e7;&amp;#x00e3;o, o algoritmo sabe qual posi&amp;#x00e7;&amp;#x00e3;o  k  de pat deve ser emparelhada com a pr&amp;#x00f3;xima posi&amp;#x00e7;&amp;#x00e3;o i+1 de txt.  Em outras palavras, no fim de cada itera&amp;#x00e7;&amp;#x00e3;o, o algoritmo sabe qual &amp;#x00ed;ndice  k  deve fazer o papel de j na pr&amp;#x00f3;xima itera&amp;#x00e7;&amp;#x00e3;o.</text>
+<feedback>Incorreto, o algoritmo n&amp;#x00e3;o examina de 2 em 2.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O algoritmo KMP examina os caracteres de txt um a um, da esquerda para a direita, sem nunca retroceder. Em cada itera&amp;#x00e7;&amp;#x00e3;o, o algoritmo sabe qual posi&amp;#x00e7;&amp;#x00e3;o  k  de pat deve ser emparelhada com a pr&amp;#x00f3;xima posi&amp;#x00e7;&amp;#x00e3;o i+1 de txt.  Em outras palavras, no fim de cada itera&amp;#x00e7;&amp;#x00e3;o, o algoritmo sabe qual &amp;#x00ed;ndice  k  deve fazer o papel de j na pr&amp;#x00f3;xima itera&amp;#x00e7;&amp;#x00e3;o.</text>
+<feedback>Correto, por isso sua complexidade &amp;#x00e9; linear</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O algoritmo KMP examina os caracteres de txt um a um, da direita para a esquerda, sem nunca retroceder. Em cada itera&amp;#x00e7;&amp;#x00e3;o, o algoritmo sabe qual posi&amp;#x00e7;&amp;#x00e3;o  k  de pat deve ser emparelhada com a pr&amp;#x00f3;xima posi&amp;#x00e7;&amp;#x00e3;o i+1 de txt.  Em outras palavras, no fim de cada itera&amp;#x00e7;&amp;#x00e3;o, o algoritmo sabe qual &amp;#x00ed;ndice  k  deve fazer o papel de j na pr&amp;#x00f3;xima itera&amp;#x00e7;&amp;#x00e3;o.</text>
+<feedback>Incorreto, n&amp;#x00e3;o &amp;#x00e9; da direita para esquerda.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>O que o algoritmo KMP faz para ter a comlexidade linear, O(N) ? </question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Para fazer isso, o algoritmo KMP usa uma tabela dfa[][] que armazena os &amp;#x00ed;ndices m&amp;#x00e1;gicos k.  (O nome da tabela deriva da express&amp;#x00e3;o deterministic finite-state automaton.)  As colunas da tabela s&amp;#x00e3;o indexadas de acordo com o alfabeto padr&amp;#x00e3;o e as linhas s&amp;#x00e3;o indexadas pelo alfabeto americano, que &amp;#x00e9; o conjunto de todos os caracteres do texto e do padr&amp;#x00e3;o.
+</text>
+<feedback>Incorreto, a tabela n&amp;#x00e3;o &amp;#x00e9; indexada de acordo com o alfabeto padr&amp;#x00e3;o</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Para fazer isso, o algoritmo KMP usa uma tabela dfa[][] que armazena os &amp;#x00ed;ndices m&amp;#x00e1;gicos k.  (O nome da tabela deriva da express&amp;#x00e3;o deterministic finite-state automaton.)  As colunas da tabela s&amp;#x00e3;o indexadas pelos &amp;#x00ed;ndices 0..M-1 do padr&amp;#x00e3;o e as linhas s&amp;#x00e3;o indexadas pelo alfabeto, que &amp;#x00e9; o conjunto de todos os caracteres do texto e do padr&amp;#x00e3;o.
+</text>
+<feedback>Correto, este &amp;#x00e9; o segredo para sua complexidade linear.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Para fazer isso, o algoritmo KMP usa uma tabela dfa[][] que armazena os &amp;#x00ed;ndices m&amp;#x00e1;gicos k.  (O nome da tabela deriva da express&amp;#x00e3;o deterministic finite-state automaton.)  As colunas da tabela s&amp;#x00e3;o indexadas pelos &amp;#x00ed;ndices 0..M-1 do padr&amp;#x00e3;o e as linhas s&amp;#x00e3;o indexadas pelos caracteres txt.
+</text>
+<feedback>Incorreto, as linhas s&amp;#x00e3;o indexadas pelo alfabeto.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Para fazer isso, o algoritmo KMP n&amp;#x00e3;o usa tabela, pois sua l&amp;#x00f3;gica consegue agregar o que falta.</text>
+<feedback>Incorreto, o algoritmo utiliza a tabela.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Depois de comparar txt[i] com pat[j], o que deve ser feito ?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Depois de comparar txt[i] com pat[i], voc&amp;#x00ea; deve comparar txt[i+1] com  pat[dfa[txt[i]][j]]</text>
+<feedback>Incorreto, n&amp;#x00e3;o &amp;#x00e9; a compara&amp;#x00e7;&amp;#x00e3;o de txt[i] com pat[i] e sim com pat[j]</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Depois de comparar txt[i] com pat[j], voc&amp;#x00ea; deve comparar txt[i+1] com  pat[dfa[j]]</text>
+<feedback>Incorreto, n&amp;#x00e3;o &amp;#x00e9; com dfa[j].</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Depois de comparar txt[i] com pat[j], voc&amp;#x00ea; deve comparar txt[i+1] com  pat[dfa[txt[i]][j]]</text>
+<feedback>Correto, assim que funciona a ideia do algoritmo.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Depois de comparar txt[i] com pat[j], voc&amp;#x00ea; deve comparar txt[i+1] com  pat[dfa[txt[j]][i]]</text>
+<feedback>Incorreto, n&amp;#x00e3;o &amp;#x00e9; com dfa[j][i] e sim com dfs[i][j].</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Marque a alternativa correta</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Por exemplo, se txt[i] == pat[j] ent&amp;#x00e3;o dfa[txt[i]][j] == j.</text>
+<feedback>Incorreto, dfa[txt[i]][j] != j.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Por exemplo, se txt[i] == pat[j] ent&amp;#x00e3;o dfa[txt[i]][j] == j+1.</text>
+<feedback>Correto, assim que funciona a ideia do algoritmo.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Por exemplo, se txt[i] == pat[j] ent&amp;#x00e3;o dfa[txt[i]][j] == j-1.</text>
+<feedback>Incorreto, dfa[txt[i]][j] != j -1.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Por exemplo, se txt[j] == pat[j] ent&amp;#x00e3;o dfa[txt[i]][j] == j+1.</text>
+<feedback>Incorreot, n&amp;#x00e3;o &amp;#x00e9; txt[j] == pat[j].</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Podemos dizer que o m&amp;#x00e9;todo search() de KMP N&amp;#x00c3;O possui o seguinte invariantes: imediatamente antes do teste i &amp;#x003C; N &amp;#x0026;&amp;#x0026; j &amp;#x003C; M.</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>pat n&amp;#x00e3;o ocorre em txt[0..i-1]</text>
+<feedback>Incorreto, essa invariante faz parte o m&amp;#x00e9;todo search()</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>pat[0..k] &amp;#x00e9; diferente de txt[i-k..i] para todo k no conjunto j+1..M-1</text>
+<feedback>Incorreto, essa invariante faz parte o m&amp;#x00e9;todo search()</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>pat[0] &amp;#x00e9; igual a txt[0].</text>
+<feedback>Correto, dependendo da entrada essa afirma&amp;#x00e7;&amp;#x00e3;o errada, portanto, essa &amp;#x00e9; a resposta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>pat[0..j-1] &amp;#x00e9; igual a txt[i-j..i-1].</text>
+<feedback>Incorreto, essa invariante faz parte o m&amp;#x00e9;todo search()</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Sobre o desempenho do algoritmo KMP, marque a alternativa correta.</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>O algoritmo KMP &amp;#x00e9; linear:  faz apenas M compara&amp;#x00e7;&amp;#x00f5;es entre caracteres para construir o DFA e depois no m&amp;#x00e1;ximo M compara&amp;#x00e7;&amp;#x00f5;es entre caracteres para procurar o padr&amp;#x00e3;o.</text>
+<feedback>Incorreto, n&amp;#x00e3;o &amp;#x00e9; no m&amp;#x00e1;ximo M compara&amp;#x00e7;&amp;#x00f5;es.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O algoritmo KMP &amp;#x00e9; linear:  faz apenas M compara&amp;#x00e7;&amp;#x00f5;es entre caracteres para construir o DFA e depois no m&amp;#x00e1;ximo N compara&amp;#x00e7;&amp;#x00f5;es entre caracteres para procurar o padr&amp;#x00e3;o.</text>
+<feedback>Correto, assim que explica seu desempenho.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O algoritmo KMP &amp;#x00e9; quadr&amp;#x00e1;tico:  faz apenas M compara&amp;#x00e7;&amp;#x00f5;es entre caracteres para construir o DFA e depois no m&amp;#x00e1;ximo N compara&amp;#x00e7;&amp;#x00f5;es entre caracteres para procurar o padr&amp;#x00e3;o.</text>
+<feedback>Incorreto, o algoritmo n&amp;#x00e3;o &amp;#x00e9; quadr&amp;#x00e1;tico</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O algoritmo KMP &amp;#x00e9; linear:  faz apenas N compara&amp;#x00e7;&amp;#x00f5;es entre caracteres para construir o DFA e depois no m&amp;#x00e1;ximo N compara&amp;#x00e7;&amp;#x00f5;es entre caracteres para procurar o padr&amp;#x00e3;o.</text>
+<feedback>Incorreto, n&amp;#x00e3;o &amp;#x00e9; apenas N compara&amp;#x00e7;&amp;#x00f5;es</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Ainda sobre o desempenho do algoritmo KMP, marque a alternativa correta.</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Proposi&amp;#x00e7;&amp;#x00e3;o N.  O algoritmo KMP examina mais que M + N caracteres.
+</text>
+<feedback>Incorreto, o algoritmo n&amp;#x00e3;o examina mais que M + N caracteres;</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Proposi&amp;#x00e7;&amp;#x00e3;o N.  O algoritmo KMP examina n&amp;#x00e3;o mais que N caracteres.
+</text>
+<feedback>Incorreto, o algoritmo examina mais que N caracteres</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Proposi&amp;#x00e7;&amp;#x00e3;o N.  O algoritmo KMP examina n&amp;#x00e3;o mais que M caracteres.
+</text>
+<feedback>Incorreto, o algoritmo examina mais que M caracteres</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Proposi&amp;#x00e7;&amp;#x00e3;o N.  O algoritmo KMP examina n&amp;#x00e3;o mais que M + N caracteres.
+</text>
+<feedback>Correto, como o algoritmo &amp;#x00e9; linear e com a ajuda da tabela que computa os &amp;#x00ed;ndices m&amp;#x00e1;gicos, o KMP nao examina mais que M + N caracteres.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Por que KMP n&amp;#x00e3;o usa a classe Alphabet?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>2</question-type>
+<answers>
+<answer><text>Apenas para tornar o c&amp;#x00f3;digo mais simples.  N&amp;#x00e3;o &amp;#x00e9; dif&amp;#x00ed;cil adaptar o c&amp;#x00f3;digo para usar Alphabet.</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Sobre o c&amp;#x00f3;digo da constru&amp;#x00e7;&amp;#x00e3;o do DFA no algoritmo KMP  (o alfabeto &amp;#x00e9; 0..R-1) responda:
+
+C&amp;#x00f3;digo : 
+
+dfa[pat.charAt(0)][0] = 1;
+for (int X = 0, j = 1; j &amp;#x003C; M; j++) {
+   for (int c = 0; c &amp;#x003C; R; c++)
+      dfa[c][j] = dfa[c][X];     
+
+   dfa[pat.charAt(j)][j] = j+1;  
+   X = dfa[pat.charAt(j)][X];    
+}
+
+</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>A linha 7 (X = dfa[pat.charAt(j)][X]) atualiza o estado de rein&amp;#x00ed;cio</text>
+<feedback>Correto, por isso o KMP nunca volta do come&amp;#x00e7;o.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>A linha 7 (X = dfa[pat.charAt(j)][X]) n&amp;#x00e3;o atualiza o estado de rein&amp;#x00ed;cio</text>
+<feedback>Incorreto, a linha 7 atualiza de fato.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>A linha 7 (X = dfa[pat.charAt(j)][X]) atualiza o estado de repeti&amp;#x00e7;&amp;#x00e3;o</text>
+<feedback>Incorreto, a linha 7 se trata de estado de rein&amp;#x00ed;cio.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>A linha 7 (X = dfa[pat.charAt(j)][X]) atualiza o estado de rein&amp;#x00ed;cioA linha 7 (X = dfa[pat.charAt(j)][X]) atualiza o estado finito</text>
+<feedback>Incorreto, a linha 7 se trata de estado de rein&amp;#x00ed;cio.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Ainda sobre o c&amp;#x00f3;digo da constru&amp;#x00e7;&amp;#x00e3;o do DFA no algoritmo KMP  (o alfabeto &amp;#x00e9; 0..R-1) responda:
+
+C&amp;#x00f3;digo : 
+
+dfa[pat.charAt(0)][0] = 1;
+for (int X = 0, j = 1; j &amp;#x003C; M; j++) {
+   for (int c = 0; c &amp;#x003C; R; c++)
+      dfa[c][j] = dfa[c][X];     
+
+   dfa[pat.charAt(j)][j] = j+1;  
+   X = dfa[pat.charAt(j)][X];    
+}</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>A linha 4 ( dfa[c][j] = dfa[c][X] ) est&amp;#x00e1; copiando casos de conflito</text>
+<feedback>Correto, essa etapa otimiza a ideia do algoritmo.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>A linha 4 ( dfa[c][j] = dfa[c][X] ) n&amp;#x00e3;o est&amp;#x00e1; copiando casos de conflito</text>
+<feedback>Inccoreto, a linha 4 est&amp;#x00e1; de fato copiando casos de conflito.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>A linha 4 ( dfa[c][j] = dfa[c][X] ) est&amp;#x00e1; copiando casos de uso</text>
+<feedback>Incorreto, a linha 4 n&amp;#x00e3;o tem rela&amp;#x00e7;&amp;#x00e3;o com casos de uso.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>A linha 4 ( dfa[c][j] = dfa[c][X] ) est&amp;#x00e1; copiando casos de divisibilidade</text>
+<feedback>Incorreto, a linha 4 n&amp;#x00e3;o tem rela&amp;#x00e7;&amp;#x00e3;o com casos de divisibilidade.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Ainda sobre o c&amp;#x00f3;digo da constru&amp;#x00e7;&amp;#x00e3;o do DFA no algoritmo KMP  (o alfabeto &amp;#x00e9; 0..R-1) responda:
+
+C&amp;#x00f3;digo : 
+
+dfa[pat.charAt(0)][0] = 1;
+for (int X = 0, j = 1; j &amp;#x003C; M; j++) {
+   for (int c = 0; c &amp;#x003C; R; c++)
+      dfa[c][j] = dfa[c][X];     
+
+   dfa[pat.charAt(j)][j] = j+1;  
+   X = dfa[pat.charAt(j)][X];    
+}</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>A linha 6 ( dfa[pat.charAt(j)][j] = j+1; ) n&amp;#x00e3;o est&amp;#x00e1; definindo casos de casamento</text>
+<feedback>Incorreto, de fato est&amp;#x00e1; sendo definido os casos de casamento.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>A linha 6 ( dfa[pat.charAt(j)][j] = j+1; ) est&amp;#x00e1; definindo casos de casamento</text>
+<feedback>Correto e neste caso que os casamentos s&amp;#x00e3;o definidos</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>A linha 6 ( dfa[pat.charAt(j)][j] = j+1; ) est&amp;#x00e1; incorreta e deveria ser = j</text>
+<feedback>Incorreto, o correto &amp;#x00e9; j + 1</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>A linha 6 ( dfa[pat.charAt(j)][j] = j+1; ) est&amp;#x00e1; incorreta e deveria ser = i + 1</text>
+<feedback>Incorreto, o correto &amp;#x00e9; i + 1 </feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>O que esse trecho de c&amp;#x00f3;digo est&amp;#x00e1; fazendo ?
+
+    for (int X = 0, j = 1; j &amp;#x003C; M; j++) {
+         for (int c = 0; c &amp;#x003C; R; c++)
+            dfa[c][j] = dfa[c][X];
+         dfa[pat.charAt(j)][j] = j+1;
+         X = dfa[pat.charAt(j)][X];
+      }</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Calculando dfa[][j]</text>
+<feedback>Correto, est&amp;#x00e1; calculando o dfs para poder otimizar o matching</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Calculando os matchings</text>
+<feedback>Incorreto, a parte os matching vez depois</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Memorizando os estados repetidos</text>
+<feedback>Incorreto, essa t&amp;#x00e9;cnica &amp;#x00e9; de programa&amp;#x00e7;&amp;#x00e3;o din&amp;#x00e2;mica.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Imprimindo a resposta</text>
+<feedback>Incorreto, nem fun&amp;#x00e7;&amp;#x00e3;o de imprimir na tela tem nesse trecho.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>O que este trecho de c&amp;#x00f3;digo faz ? 
+
+ public int search(String txt) {
+      int j, M = pat.length();
+      int i, N = txt.length();
+
+      for (i = 0, j = 0; i &amp;#x003C; N &amp;#x0026;&amp;#x0026; j &amp;#x003C; M; i++)
+         j = dfa[txt.charAt(i)][j];
+      if (j == M) return i - M;
+      else        return N;
+   }</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Simula funcionamento do DFA sobre o padrao pat</text>
+<feedback>Incorreto, o search est&amp;#x00e1; relacionado com o txt.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Precalculando o dfa</text>
+<feedback>Incorreto, esta etapa fica no passo anteior.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Simula funcionamento do DFA sobre o texto txt</text>
+<feedback>Correto, assim que funciona o search</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Calculando os estados repetidos</text>
+<feedback>Incorreto, est&amp;#x00e1; &amp;#x00e9; uma tecnica de programa&amp;#x00e7;&amp;#x00e3;o din&amp;#x00e2;mica.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>TXT : ABABBBBBBBABABAAABABA
+PAT : BA
+
+Ao aplicar o KMP, qual o valor da saida ?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>1</text>
+<feedback>Incorreto, existe mais do que 1 matching de BA dentro da entrada</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>3</text>
+<feedback>Incorreto, existe mais do que 3 matchings de BA dentro da entrada</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>5</text>
+<feedback>Incorreto, existe mais do que 5 matchings de BA dentro da entrada</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>6</text>
+<feedback>Correto, existem 6 matchings de BA dentro da entrada.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+</questions></data>
+<hotpot-config-file>
+<global>
+<separate-js-file>0</separate-js-file>
+<clue-caption>Clue</clue-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<incorrect-indicator>X</incorrect-indicator>
+<font-size>small</font-size>
+<include-next-ex>1</include-next-ex>
+<restart-caption>Restart</restart-caption>
+<contents-url>contents.htm</contents-url>
+<include-timer>0</include-timer>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<include-scorm-12>0</include-scorm-12>
+<user-string-3>three</user-string-3>
+<show-correct-first-time>0</show-correct-first-time>
+<user-string-2>two</user-string-2>
+<user-string-1>one</user-string-1>
+<vlink-color>#0000CC</vlink-color>
+<title-color>#000033</title-color>
+<correct-indicator>:-)</correct-indicator>
+<contents-caption>Index</contents-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<undo-caption>Undo</undo-caption>
+<header-code></header-code>
+<hint-caption>Hint</hint-caption>
+<check-button-caption>Check</check-button-caption>
+<email>you@yourserver.com</email>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<name-please>Please enter your name:</name-please>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<text-color>#000000</text-color>
+<page-bg-color>#ffffff</page-bg-color>
+<times-up>Your time is over!</times-up>
+<nav-bar-color>#000066</nav-bar-color>
+<include-contents>1</include-contents>
+<your-score-is>Your score is </your-score-is>
+<graphic-url></graphic-url>
+<link-color>#0000FF</link-color>
+<keypad-characters></keypad-characters>
+<show-also-correct>1</show-also-correct>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<include-cgi>0</include-cgi>
+<ex-bg-color>#bbbbee</ex-bg-color>
+<ok-caption>OK</ok-caption>
+<process-for-rtl>0</process-for-rtl>
+<check-caption>Check</check-caption>
+<include-back>1</include-back>
+<next-correct-letter>Next correct letter is: </next-correct-letter>
+</global>
+<jquiz>
+<next-caption>Next</next-caption>
+<instructions>JQuiz Instructions</instructions>
+<enter-a-guess>Please enter a guess, then check.</enter-a-guess>
+<completed-so-far>Completed so far:</completed-so-far>
+<correct-list>Correct answers:</correct-list>
+<header-code></header-code>
+<include-hint>0</include-hint>
+<include-keypad>0</include-keypad>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<partly-incorrect>Your answer is partly incorrect.</partly-incorrect>
+<guess-incorrect>Not perfect yet. Please try again.</guess-incorrect>
+<case-sensitive>0</case-sensitive>
+<continuous-scoring>1</continuous-scoring>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<exercise-subtitle></exercise-subtitle>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<questions-to-show>10</questions-to-show>
+<shuffle-answers>0</shuffle-answers>
+<guess-correct>Correct!</guess-correct>
+<next-correct-letter>Next correct letter is: </next-correct-letter>
+<show-limited-questions>0</show-limited-questions>
+<shuffle-questions>0</shuffle-questions>
+<include-show-answer>1</include-show-answer>
+<show-correct-first-time>0</show-correct-first-time>
+<separate-javascript-file>0</separate-javascript-file>
+<delete-caption>Delete This Flashcard</delete-caption>
+<show-answer-caption>Show Answer</show-answer-caption>
+</jquiz>
+</hotpot-config-file>
+
+</hotpot-jquiz-file>

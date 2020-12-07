@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>vitordullens</dc:creator>
+    <dc:title>Longest Palindromic Subsequence</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>Longest Palindromic Subsequence</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>O que &amp;#x00E9; uma string considerada palindromo?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Uma string s&amp;#x00F3; com letras em qualquer ordem.</text><feedback>Um pal&amp;#x00ED;ndromo depende exclusivamente da ordem.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Um string que possui letras e n&amp;#x00FA;meros em qualquer ordem.</text><feedback>Um pal&amp;#x00ED;ndromo depende exclusivamente da ordem.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Uma string apenas de n&amp;#x00FA;meros em qualquer ordem.</text><feedback>Um pal&amp;#x00ED;ndromo depende exclusivamente da ordem.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Uma string que pode possuir letras ou n&amp;#x00FA;meros que &amp;#x00E9; lida da mesma forma da esquerda para direita ou da direita pra esquerda.</text><feedback>Esta &amp;#x00E9; a defini&amp;#x00E7;&amp;#x00E3;o correta de pal&amp;#x00ED;ndromo.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Qual dos exemplos abaixo corresponde a um pal&amp;#x00ED;ndromo?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>arara</text><feedback>Sim, &quot;arara&quot; pode ser lida tanto da esquerda para a direita, quanto da direita para a esquerda.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>bacana</text><feedback>N&amp;#x00E3;o, &quot;bacana&quot; n&amp;#x00E3;o pode ser lida tanto da esquerda para a direita, quanto da direita para a esquerda.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>banana</text><feedback>N&amp;#x00E3;o, &quot;banana&quot; n&amp;#x00E3;o pode ser lida tanto da esquerda para a direita, quanto da direita para a esquerda.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>crocodilo</text><feedback>N&amp;#x00E3;o, &quot;crocodilo&quot; n&amp;#x00E3;o pode ser lida tanto da esquerda para a direita, quanto da direita para a esquerda.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Qual a diferen&amp;#x00E7;a entre uma subsequ&amp;#x00EA;ncia e uma substring?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Subsequ&amp;#x00EA;ncia: sequ&amp;#x00EA;ncia cont&amp;#x00ED;nua ou n&amp;#x00E3;o contida dentro de uma string;
+
+Substring: sequ&amp;#x00EA;ncia cont&amp;#x00ED;nua contido dentro de uma string.</text><feedback>Essa &amp;#x00E9; a defini&amp;#x00E7;&amp;#x00E3;o correta.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Subsequ&amp;#x00EA;ncia: sequ&amp;#x00EA;ncia cont&amp;#x00ED;nua ou n&amp;#x00E3;o contida dentro de uma string;
+
+Substring: sequ&amp;#x00EA;ncia n&amp;#x00E3;o cont&amp;#x00ED;nua contido dentro de uma string.</text><feedback>Errado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Subsequ&amp;#x00EA;ncia: sequ&amp;#x00EA;ncia cont&amp;#x00ED;nua contida dentro de uma string;
+
+Substring: sequ&amp;#x00EA;ncia cont&amp;#x00ED;nua contido dentro de uma string.</text><feedback>Errado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Subsequ&amp;#x00EA;ncia: sequ&amp;#x00EA;ncia cont&amp;#x00ED;nua contida dentro de uma string;
+
+Substring: sequ&amp;#x00EA;ncia n&amp;#x00E3;o cont&amp;#x00ED;nua contido dentro de uma string.</text><feedback>Errado</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Abaixo um c&amp;#x00F3;digo para achar a maior subsequencia palindromo dentro de uma string:
+
+int st[MAX_M][MAX_N], a[MAX_N], b[MAX_N];
+int c_i = 0, c_r = 0, c_s = 1;     
+ps[MAX_M][MAX_N];
+
+int lcs(const string&amp;#x0026; s, const string&amp;#x0026; t)
+{
+    int m = s.size();
+    int n = t.size();
+ 
+    for (int i = 0; i &amp;#x003C;= m; ++i)
+        st[i][0] = i*c_r;
+ 
+    for (int j = 1; j &amp;#x003C;= n; ++j)
+        st[0][j] = j*c_i;
+ 
+    for (int i = 1; i &amp;#x003C;= m; ++i)
+        for (int j = 1; j &amp;#x003C;= n; ++j)
+        {
+            int insertion = st[i][j - 1] + c_i;
+            int deletion = st[i - 1][j] + c_r;
+            int change = st[i - 1][j - 1] + c_s * (s[i - 1] == t[j - 1] ? 1 : -INF);
+            st[i][j] = max(insertion, deletion);
+            st[i][j] = max(st[i][j], change);
+        }
+ 
+    return st[m][n];
+}
+
+
+Qual a complexidade desta fun&amp;#x00E7;&amp;#x00E3;o?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>O(n^2)</text><feedback>Correto! Esta &amp;#x00E9; a complexidade.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O(n)</text><feedback>Errado!</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O(n*logn)</text><feedback>Errado!</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O(n!)</text><feedback>Errado!</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Baseado no algoritmo abaixo responda:
+
+int st[MAX_M][MAX_N], a[MAX_N], b[MAX_N];
+int c_i = 0, c_r = 0, c_s = 1;    
+char ps[MAX_M][MAX_N];
+ 
+int lcs(const string&amp;#x0026; s, const string&amp;#x0026; t)
+{
+    int m = s.size();
+    int n = t.size();
+ 
+    for (int i = 0; i &amp;#x003C;= m; ++i)
+        st[i][0] = i*c_r;
+ 
+    for (int j = 1; j &amp;#x003C;= n; ++j)
+        st[0][j] = j*c_i;
+ 
+    for (int i = 1; i &amp;#x003C;= m; ++i)
+        for (int j = 1; j &amp;#x003C;= n; ++j)
+        {
+            int insertion = st[i][j - 1] + c_i;
+            int deletion = st[i - 1][j] + c_r;
+            int change = st[i - 1][j - 1] + c_s * (s[i - 1] == t[j - 1] ? 1 : -INF);
+            st[i][j] = max(insertion, deletion);
+            st[i][j] = max(st[i][j], change);
+        }
+ 
+    return st[m][n];
+}
+
+Qual t&amp;#x00E9;cnica de programa&amp;#x00E7;&amp;#x00E3;o &amp;#x00E9; implementada neste algoritmo?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Programa&amp;#x00E7;&amp;#x00E3;o Din&amp;#x00E2;mica.</text><feedback>Correto.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Recursividade.</text><feedback>Errado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x00C1;rvore.</text><feedback>Errado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Programa&amp;#x00E7;&amp;#x00E3;o Orientada a Objetos.</text><feedback>Errado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Abaixo um c&amp;#x00F3;digo para achar a maior subsequencia palindromo dentro de uma string:
+
+int max (int x, int y) { return (x &amp;#x003E; y)? x : y; } 
+
+int lps(char *seq, int i, int j) { 
+
+    if (i == j) 
+	return 1; 
+
+    if (seq[i] == seq[j] &amp;#x0026;&amp;#x0026; i + 1 == j) 
+	return 2; 
+
+    if (seq[i] == seq[j]) 
+	return lps (seq, i+1, j-1) + 2; 
+    return max( lps(seq, i, j-1), lps(seq, i+1, j) ); 
+} 
+
+
+Qual a complexidade desta fun&amp;#x00E7;&amp;#x00E3;o?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>O(n)</text><feedback>Errado!</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O(n^2)</text><feedback>Errado!</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O(2^n)</text><feedback>Correto!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O(n!)</text><feedback>Errado</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Baseado no algoritmo abaixo responda:
+
+int max (int x, int y) { return (x &amp;#x003E; y)? x : y; } 
+
+int lps(char *seq, int i, int j) { 
+
+    if (i == j) 
+	return 1; 
+
+    if (seq[i] == seq[j] &amp;#x0026;&amp;#x0026; i + 1 == j) 
+	return 2; 
+
+    if (seq[i] == seq[j]) 
+	return lps (seq, i+1, j-1) + 2; 
+    return max( lps(seq, i, j-1), lps(seq, i+1, j) ); 
+} 
+
+Qual t&amp;#x00E9;cnica de programa&amp;#x00E7;&amp;#x00E3;o &amp;#x00E9; implementada neste algoritmo?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Programa&amp;#x00E7;&amp;#x00E3;o Din&amp;#x00E2;mica.</text><feedback>Errado!</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Recursividade</text><feedback>Correto!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x00C1;rvore</text><feedback>Errado!</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Programa&amp;#x00E7;&amp;#x00E3;o Funcional</text><feedback>Errado!</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Tendo em vista os dois algoritmos apresentados anteriormente, um que envolve programa&amp;#x00E7;&amp;#x00E3;o din&amp;#x00E2;mica e outro recursividade. Qual &amp;#x00E9; a principal diferen&amp;#x00E7;a entre eles para que um seja bem mais r&amp;#x00E1;pido que o outro?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>O fato de que com programa&amp;#x00E7;&amp;#x00E3;o din&amp;#x00E2;mica, os valores passados ser&amp;#x00E3;o armazenados, evitando que eles sejam recalculados a cada itera&amp;#x00E7;&amp;#x00E3;o</text><feedback>Correto! A programa&amp;#x00E7;&amp;#x00E3;o din&amp;#x00E2;mica melhora bastante o tempo de execu&amp;#x00E7;&amp;#x00E3;o do algoritmo.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A recursividade utiliza mais mem&amp;#x00F3;ria por&amp;#x00E9;m &amp;#x00E9; executada mais r&amp;#x00E1;pido pelo sistema operacional, fazendo com que o algoritmo tenha melhor complexidade.</text><feedback>Errado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A programa&amp;#x00E7;&amp;#x00E3;o dinamica executa o loop apenas uma vez e salva os valores.</text><feedback>Errado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Nenhuma das anteriores</text><feedback>Errado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Tendo a entrada:
+entrada: KAASRKAARS
+
+Qual o tamanho da maior subsequencia palindromo?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>5</text><feedback>Correto. Uma das possibilidades &amp;#x00E9;: AAKAA</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>4</text><feedback>Errado. Existe uma possibilidade de palindromo de maior tamanho</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>6</text><feedback>Errado. N&amp;#x00E3;o existe uma possibilidade de palindromo desse tamanho</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3</text><feedback>Errado. Existe uma possibilidade de palindromo de maior tamanho</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Qual a ideia por tr&amp;#x00E1;s de um algoritmo que busca a maior subsequencia palindromo de um string?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Passar por toda a string e verificar a maior substring palindromo presente num intervalo da string.</text><feedback>Correto</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Percorrer a string e contar quantos palindromos ela possui.</text><feedback>Errado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Verificar se a string &amp;#x00E9; palindromo.</text><feedback>Errado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Comparar char a char se &amp;#x00E9; poss&amp;#x00ED;vel formar um palindromo.</text><feedback>Errado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>:-)</correct-indicator>
+<incorrect-indicator>X</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>small</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

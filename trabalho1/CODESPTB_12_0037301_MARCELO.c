@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-
 int insertion(int vetor[], int n){
    int i, aux, pos , cont=0;
    for (i = 1; i < n; i++){
@@ -17,9 +15,7 @@ int insertion(int vetor[], int n){
    }
    return cont;
 }
-
 int main(){
-
 	int t,n,i,j;
 	int numero_alteracao[5];
 	int vetor[100000];
