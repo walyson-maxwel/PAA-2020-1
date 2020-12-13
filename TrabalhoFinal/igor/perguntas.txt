@@ -1,0 +1,130 @@
+Horspool's algorithm
+
+Q1 O que é o algoritmo de Boyer-Moore-Horspool?
+
+1. É um algoritmo de busca de nós em grafos não-conectados.
+2. É um algoritmo de Machine Learning para classificação de imagens.
+3. É um algoritmo de busca de substrings em strings. CERTA
+4. É um algoritmo para encontrar a menor distância entre dois nós em um grafo.
+
+Q2 Qual a diferença entre o algoritmo de Horspool e o algoritmo de Boyer-Moore?
+
+1. O algoritmo de Horspool tem melhor complexidade de tempo no caso médio. CERTA
+2. O algoritmo de Boyer-Moore tem melhor complexidade de tempo no caso médio.
+3. O algoritmo de Horspool pode ser executado em strings e padrões de tamanhos arbitrários.
+4. O algoritmo de Boyer-Moore tem melhor complexidade de espaço no caso médio.
+
+Q3 Qual a complexidade de tempo, em pior caso, do algoritmo de Horspool?
+
+1. O(n), em que "n" é o tamanho do padrão que será buscado. 
+2. O(n*m), em que "m" é o tamanho do padrão que será buscado e "n" é o tamanho da string em que será feita a busca. CERTA
+3. O(n), em que "n" é o tamanho da string em que será feita a busca.
+4. O(log n), em que "n" é o tamanho da string em que será feita a busca.
+
+Q4 Qual a complexidade de tempo, em caso médio, do algoritmo de Horspool?
+
+1. O(n), em que "n" é o tamanho do padrão que será buscado. 
+2. O(n*m), em que "m" é o tamanho do padrão que será buscado e "n" é o tamanho da string em que será feita a busca.
+3. O(n), em que "n" é o tamanho da string em que será feita a busca. CERTA
+4. O(log n), em que "n" é o tamanho da string em que será feita a busca.
+
+Q5 Qual o primeiro passo na execução do algoritmo de Horspool? 
+
+1. Inverter a string em que será feita a busca, para evitar o pior caso.
+2. Procurar, caracter por caracter, o padrão a ser buscado na string de entrada.
+3. Ordenar a string de entrada lexicograficamente.
+4. Criar uma tabela hash com valores de hash para cada letra do padrão que será buscado. CERTA
+
+Q6 Como é construída a tabela no algoritmo de Horspool para busca em um alfabeto de 256 símbolos?
+
+1. Crie uma tabela T com 256 espaços. 
+   Para cada "entrada" em "T", faça entrada = tamanho(padrao).
+   Para cada "letra" na posição "i" do "padrão", faça T[letra] = tamanho(padrao) - 1 - i. CERTA
+2. Crie uma tabela T com 128 espaços. 
+   Para cada "entrada" em "T", faça entrada = tamanho(padrao)/2.
+   Para cada "letra" na posição "i" do "padrão", faça T[letra/2] = tamanho(padrao)/2 - 1 - i.
+3. Crie uma tabela T com 256 espaços. 
+   Para cada "entrada" em "T", faça entrada = tamanho(padrao).
+   Para cada "letra" do "padrão", faça T[letra] = tamanho(padrao) - 1.
+4. Nenhuma das alternativas acima.
+
+Q7 A complexidade de tempo da construção da tabela no algoritmo de Harspool pertence a:
+
+1. θ(a * m), em que "a" é o tamanho do alfabeto e "m" é o tamanho do padrão.
+2. θ(a + m), em que "a" é o tamanho do alfabeto e "m" é o tamanho do padrão. CERTA 
+3. θ(m*n), em que "n" é o tamanho da string e "m" é o tamanho do padrão.
+4. θ(m + n), em que "n" é o tamanho da string e "m" é o tamanho do padrão.
+
+Q8 Após construir a tabela para a substring, o passo seguinte do algoritmo de Harspool consiste em:
+
+1. Comparar a substring e a string, começando do índice da última letra da substring. CERTA
+2. Construir uma nova tabela. Dessa vez, para a string.
+3. Retornar a tabela e finalizar a execução do algoritmo.
+4. Verificar se a primeira entrada da tabela concide com a primeira letra da string.
+
+Q9 Considere que uma execução do algoritmo de Harspool em foi dada a string "eovadabcdftoy" como entrada e o padrão "abcd" foi buscado. Considere um alfabeto de tamanho 256. 
+
+Nesse caso, a tabela gerada pelo algoritmo será:
+
+1. a = 3; b = 2; c = 1; d = 4; CERTA
+2. a = 1; b = 2; c = 3; d = 4;
+3. a = 4; b = 3; c = 2; d = 1;
+4. a = 3; b = 2; c = 4; d = 1;
+
+Q10 Considere que uma execução do algoritmo de Harspool em foi dada a string "eovadabcdftoy" como entrada e o padrão "abcd" foi buscado. Considere um alfabeto de tamanho 256. 
+
+Na etapa de comparação do algoritmo, o seguinte procedimento será feito:
+
+1. Começando do índice da última letra na substring (nesse caso, letra 'd'):
+	Se a letra concide, então cheque seu valor na tabela e pule o número de passos que a tabela indica.
+	Se não coincide, finalize a execução do algoritmo reportando que o padrão não foi encontrado.
+2. Começando do índice da última letra na substring (ness caso, letra 'd'):
+	Se a letra concide, então compare a letra seguinte, 'c' no caso.
+	Se não coincide, vá para a posição seguinte da string.
+3. Começando do índice da última letra na substring (ness caso, letra 'd'):
+	Se a letra concide, então retorne o índice atual. 
+4. Começando do índice da última letra na substring (ness caso, letra 'd'):
+	Se a letra concide, então compare a letra seguinte, 'c' no caso.
+	Se não coincide, cheque seu valor na tabela e pule metade da quantidade de passos que a tabela indica.
+
+Q11 O objetivo da criação da tabela no algoritmo de Harspool é:
+
+1. Melhorar a complexidade de espaço, em caso médio, do algoritmo.
+2. Melhorar a complexidade de tempo, em pior caso, do algoritmo.
+3. Evitar comparações desnecessárias de caracteres. CERTA
+4. Corrigir possíveis erros na execução do algoritmo.
+
+Q12 Caso o padrão não seja encontrado na string, o algoritmo de Harspool:
+
+1. Entrará em loop infinito.
+2. Chegará no fim da string e não conseguirá fazer match de nenhum caracter da substring.
+3. Chegará no fim da string e não conseguirá fazer match de todos os caracteres da substring. CERTA
+4. Retonará ao começo da string e fará uma nova procura com índices atualizados.
+
+Q13 Quais as principais aplicações práticas do algoritmo de Horspool:
+
+1. Barras de busca, auto-corretores, analizadores de string e Big Data. CERTA
+2. Aprendizado de máquina, classificação de imagens e denoising.
+3. Determinação de menor caminho entre dois pontos em um mapa. Otimização de rota em GPS.
+4. Paralelização de trabalho em sistemas distribuídos. Parallel computing.
+
+Q14 "O algoritmo de Harspool é objetivamente melhor que o algoritmo de Boyer-Moore, em quaisquer condições". Essa afirmativa é:
+
+1. Verdadeira.
+2. Falsa, pois o algoritmo de Harspool tem maior complexidade de espaço no caso médio. CERTA
+3. Falsa, pois o algoritmo de Harspool tem maior complexidade de tempo no pior caso.
+4. Falsa, pois o algoritmo de Boyer-Moore tem complexidade de tempo menor ou igual em todos os casos.
+
+Q15 O pior caso, quanto a complexidade de tempo, do algoritmo de Harspool ocorre quando:
+
+1. A substring não está contida na string de entrada. CERTA
+2. A substring está contida na string de entrada começando da primeira posição.
+3. A string de entrada é um palíndromo.
+4. A substring é maior que a string de entrada.
+
+Q16 "De forma geral, quanto maior a substring que será procurada, mais rápida a execução do algoritmo de Harspool". Essa afirmativa é (considerando "n" o tamanho da entrada e "m" o tamanho do padrão):
+
+1. Verdadeira. CERTA
+2. Falsa, pois o algoritmo de Harspool é de O(n*m), portanto, quanto maior o tamanho de m, maior será o tempo de execução.
+3. Falsa, pois o algoritmo de Harspool é de O(m), portanto, quanto maior o tamanho de m, maior será o tempo de execução.  
+4. Nenhuma das respostas acima.

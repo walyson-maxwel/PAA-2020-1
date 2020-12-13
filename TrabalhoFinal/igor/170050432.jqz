@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about="">
+</rdf:Description>
+</rdf:RDF>
+<version>6</version>
+<data>
+<title>Algoritmo de Horspool</title>
+<timer>
+<include-timer>0</include-timer>
+<seconds>59</seconds>
+</timer>
+<reading>
+<reading-text></reading-text>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+</reading>
+<questions>
+<question-record>
+<question>O que &amp;#x00e9; o algoritmo de Boyer-Moore-Horspool?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>&amp;#x00c9; um algoritmo de busca de n&amp;#x00f3;s em grafos n&amp;#x00e3;o-conectados.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>&amp;#x00c9; um algoritmo de Machine Learning para classifica&amp;#x00e7;&amp;#x00e3;o de imagens.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>&amp;#x00c9; um algoritmo de busca de substrings em strings.</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>&amp;#x00c9; um algoritmo para encontrar a menor dist&amp;#x00e2;ncia entre dois n&amp;#x00f3;s em um grafo.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Qual a diferen&amp;#x00e7;a entre o algoritmo de Horspool e o algoritmo de Boyer-Moore?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text> O algoritmo de Horspool tem melhor complexidade de tempo no caso m&amp;#x00e9;dio</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O algoritmo de Boyer-Moore tem melhor complexidade de tempo no caso m&amp;#x00e9;dio.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O algoritmo de Horspool pode ser executado em strings e padr&amp;#x00f5;es de tamanhos arbitr&amp;#x00e1;rios.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O algoritmo de Boyer-Moore tem melhor complexidade de espa&amp;#x00e7;o no caso m&amp;#x00e9;dio.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Qual a complexidade de tempo, em pior caso, do algoritmo de Horspool?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>O(n), em que &quot;n&quot; &amp;#x00e9; o tamanho do padr&amp;#x00e3;o que ser&amp;#x00e1; buscado.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O(n*m), em que &quot;m&quot; &amp;#x00e9; o tamanho do padr&amp;#x00e3;o que ser&amp;#x00e1; buscado e &quot;n&quot; &amp;#x00e9; o tamanho da string em que ser&amp;#x00e1; feita a busca</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text> O(n), em que &quot;n&quot; &amp;#x00e9; o tamanho da string em que ser&amp;#x00e1; feita a busca.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O(log n), em que &quot;n&quot; &amp;#x00e9; o tamanho da string em que ser&amp;#x00e1; feita a busca.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question> Qual a complexidade de tempo, em caso m&amp;#x00e9;dio, do algoritmo de Horspool?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>O(n), em que &quot;n&quot; &amp;#x00e9; o tamanho do padr&amp;#x00e3;o que ser&amp;#x00e1; buscado.
+</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O(n*m), em que &quot;m&quot; &amp;#x00e9; o tamanho do padr&amp;#x00e3;o que ser&amp;#x00e1; buscado e &quot;n&quot; &amp;#x00e9; o tamanho da string em que ser&amp;#x00e1; feita a busca.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text> O(n), em que &quot;n&quot; &amp;#x00e9; o tamanho da string em que ser&amp;#x00e1; feita a busca.</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O(log n), em que &quot;n&quot; &amp;#x00e9; o tamanho da string em que ser&amp;#x00e1; feita a busca.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Qual o primeiro passo na execu&amp;#x00e7;&amp;#x00e3;o do algoritmo de Horspool?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Inverter a string em que ser&amp;#x00e1; feita a busca, para evitar o pior caso.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Procurar, caracter por caracter, o padr&amp;#x00e3;o a ser buscado na string de entrada.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Ordenar a string de entrada lexicograficamente.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Criar uma tabela hash com valores de hash para cada letra do padr&amp;#x00e3;o que ser&amp;#x00e1; buscado. </text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Como &amp;#x00e9; constru&amp;#x00ed;da a tabela no algoritmo de Horspool para busca em um alfabeto de 256 s&amp;#x00ed;mbolos?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Crie uma tabela T com 256 espa&amp;#x00e7;os.
+   Para cada &quot;entrada&quot; em &quot;T&quot;, fa&amp;#x00e7;a entrada = tamanho(padrao).
+   Para cada &quot;letra&quot; na posi&amp;#x00e7;&amp;#x00e3;o &quot;i&quot; do &quot;padr&amp;#x00e3;o&quot;, fa&amp;#x00e7;a T[letra] = tamanho(padrao) - 1 - i.</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Crie uma tabela T com 128 espa&amp;#x00e7;os.
+   Para cada &quot;entrada&quot; em &quot;T&quot;, fa&amp;#x00e7;a entrada = tamanho(padrao)/2.
+   Para cada &quot;letra&quot; na posi&amp;#x00e7;&amp;#x00e3;o &quot;i&quot; do &quot;padr&amp;#x00e3;o&quot;, fa&amp;#x00e7;a T[letra/2] = tamanho(padrao)/2 - 1 - i.
+</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Crie uma tabela T com 256 espa&amp;#x00e7;os.
+   Para cada &quot;entrada&quot; em &quot;T&quot;, fa&amp;#x00e7;a entrada = tamanho(padrao).
+   Para cada &quot;letra&quot; do &quot;padr&amp;#x00e3;o&quot;, fa&amp;#x00e7;a T[letra] = tamanho(padrao) - 1.
+</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Nenhuma das alternativas acima.
+</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>A complexidade de tempo da constru&amp;#x00e7;&amp;#x00e3;o da tabela no algoritmo de Harspool pertence a:</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text> &amp;#x03b8;(a * m), em que &quot;a&quot; &amp;#x00e9; o tamanho do alfabeto e &quot;m&quot; &amp;#x00e9; o tamanho do padr&amp;#x00e3;o.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>&amp;#x03b8;(a + m), em que &quot;a&quot; &amp;#x00e9; o tamanho do alfabeto e &quot;m&quot; &amp;#x00e9; o tamanho do padr&amp;#x00e3;o.</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text> &amp;#x03b8;(m*n), em que &quot;n&quot; &amp;#x00e9; o tamanho da string e &quot;m&quot; &amp;#x00e9; o tamanho do padr&amp;#x00e3;o.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>&amp;#x03b8;(m + n), em que &quot;n&quot; &amp;#x00e9; o tamanho da string e &quot;m&quot; &amp;#x00e9; o tamanho do padr&amp;#x00e3;o.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Ap&amp;#x00f3;s construir a tabela para a substring, o passo seguinte do algoritmo de Harspool consiste em:</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Comparar a substring e a string, come&amp;#x00e7;ando do &amp;#x00ed;ndice da &amp;#x00fa;ltima letra da substring.</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Construir uma nova tabela. Dessa vez, para a string.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Retornar a tabela e finalizar a execu&amp;#x00e7;&amp;#x00e3;o do algoritmo.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Verificar se a primeira entrada da tabela concide com a primeira letra da string.
+</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Considere que uma execu&amp;#x00e7;&amp;#x00e3;o do algoritmo de Harspool em foi dada a string &quot;eovadabcdftoy&quot; como entrada e o padr&amp;#x00e3;o &quot;abcd&quot; foi buscado. Considere um alfabeto de tamanho 256.
+
+Nesse caso, a tabela gerada pelo algoritmo ser&amp;#x00e1;:</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>a = 3; b = 2; c = 1; d = 4;</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>a = 1; b = 2; c = 3; d = 4;</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>a = 4; b = 3; c = 2; d = 1;</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>a = 3; b = 2; c = 4; d = 1;</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Considere que uma execu&amp;#x00e7;&amp;#x00e3;o do algoritmo de Harspool em foi dada a string &quot;eovadabcdftoy&quot; como entrada e o padr&amp;#x00e3;o &quot;abcd&quot; foi buscado. Considere um alfabeto de tamanho 256.
+
+Na etapa de compara&amp;#x00e7;&amp;#x00e3;o do algoritmo, o seguinte procedimento ser&amp;#x00e1; feito:</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Come&amp;#x00e7;ando do &amp;#x00ed;ndice da &amp;#x00fa;ltima letra na substring (nesse caso, letra &apos;d&apos;):
+        Se a letra concide, ent&amp;#x00e3;o cheque seu valor na tabela e pule o n&amp;#x00fa;mero de passos que a tabela indica.
+        Se n&amp;#x00e3;o coincide, cheque o valor da letra na tabela e pule o n&amp;#x00fa;mero de espa&amp;#x00e7;os que a tabela indica.
+</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text> Come&amp;#x00e7;ando do &amp;#x00ed;ndice da &amp;#x00fa;ltima letra na substring (ness caso, letra &apos;d&apos;):
+        Se a letra concide, ent&amp;#x00e3;o compare a letra seguinte, &apos;c&apos; no caso.
+        Se n&amp;#x00e3;o coincide, v&amp;#x00e1; para a posi&amp;#x00e7;&amp;#x00e3;o seguinte da string.
+</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Come&amp;#x00e7;ando do &amp;#x00ed;ndice da &amp;#x00fa;ltima letra na substring (ness caso, letra &apos;d&apos;):
+        Se a letra concide, ent&amp;#x00e3;o retorne o &amp;#x00ed;ndice atual.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>    Come&amp;#x00e7;ando do &amp;#x00ed;ndice da &amp;#x00fa;ltima letra na substring (nesse caso, letra &apos;d&apos;):
+        Se a letra concide, ent&amp;#x00e3;o cheque seu valor na tabela e pule o n&amp;#x00fa;mero de passos que a tabela indica.
+        Se n&amp;#x00e3;o coincide, finalize a execu&amp;#x00e7;&amp;#x00e3;o do algoritmo reportando que o padr&amp;#x00e3;o n&amp;#x00e3;o foi encontrado.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>O objetivo da cria&amp;#x00e7;&amp;#x00e3;o da tabela no algoritmo de Harspool &amp;#x00e9; o de:</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Melhorar a complexidade de espa&amp;#x00e7;o, em caso m&amp;#x00e9;dio, do algoritmo.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Melhorar a complexidade de tempo, em pior caso, do algoritmo</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Evitar compara&amp;#x00e7;&amp;#x00f5;es desnecess&amp;#x00e1;rias de caracteres</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Corrigir poss&amp;#x00ed;veis erros na execu&amp;#x00e7;&amp;#x00e3;o do algoritmo.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Caso o padr&amp;#x00e3;o n&amp;#x00e3;o seja encontrado na string, o algoritmo de Harspool:</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Entrar&amp;#x00e1; em loop infinito.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Chegar&amp;#x00e1; no fim da string e n&amp;#x00e3;o conseguir&amp;#x00e1; fazer match de nenhum caracter da substring.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Chegar&amp;#x00e1; no fim da string e n&amp;#x00e3;o conseguir&amp;#x00e1; fazer match de todos os caracteres da substring. </text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Retonar&amp;#x00e1; ao come&amp;#x00e7;o da string e far&amp;#x00e1; uma nova procura com &amp;#x00ed;ndices atualizados.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Quais as principais aplica&amp;#x00e7;&amp;#x00f5;es pr&amp;#x00e1;ticas do algoritmo de Horspool:</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text> Barras de busca, auto-corretores, analizadores de string e Big Data.</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Aprendizado de m&amp;#x00e1;quina, classifica&amp;#x00e7;&amp;#x00e3;o de imagens e denoising</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Determina&amp;#x00e7;&amp;#x00e3;o de menor caminho entre dois pontos em um mapa. Otimiza&amp;#x00e7;&amp;#x00e3;o de rota em GPS.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Paraleliza&amp;#x00e7;&amp;#x00e3;o de trabalho em sistemas distribu&amp;#x00ed;dos. Parallel computing.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>&quot;O algoritmo de Harspool &amp;#x00e9; objetivamente melhor que o algoritmo de Boyer-Moore, em quaisquer condi&amp;#x00e7;&amp;#x00f5;es&quot;. Essa afirmativa &amp;#x00e9;:
+</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Verdadeira.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Falsa, pois o algoritmo de Harspool tem maior complexidade de espa&amp;#x00e7;o no caso m&amp;#x00e9;dio.</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Falsa, pois o algoritmo de Harspool tem maior complexidade de tempo no pior caso.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Falsa, pois o algoritmo de Boyer-Moore tem complexidade de tempo menor ou igual em todos os casos.
+</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question> O pior caso, quanto a complexidade de tempo, do algoritmo de Harspool ocorre quando:</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>A substring n&amp;#x00e3;o est&amp;#x00e1; contida na string de entrada.</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>A substring est&amp;#x00e1; contida na string de entrada come&amp;#x00e7;ando da primeira posi&amp;#x00e7;&amp;#x00e3;o.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>A string de entrada &amp;#x00e9; um pal&amp;#x00ed;ndromo.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>A substring &amp;#x00e9; maior que a string de entrada.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>&quot;De forma geral, quanto maior a substring que ser&amp;#x00e1; procurada, mais r&amp;#x00e1;pida a execu&amp;#x00e7;&amp;#x00e3;o do algoritmo de Harspool&quot;. Essa afirmativa &amp;#x00e9; (considerando &quot;n&quot; o tamanho da entrada e &quot;m&quot; o tamanho do padr&amp;#x00e3;o):</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Verdadeira.</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Falsa, pois o algoritmo de Harspool &amp;#x00e9; de O(n*m), portanto, quanto maior o tamanho de m, maior ser&amp;#x00e1; o tempo de execu&amp;#x00e7;&amp;#x00e3;o.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text> Falsa, pois o algoritmo de Harspool &amp;#x00e9; de O(m), portanto, quanto maior o tamanho de m, maior ser&amp;#x00e1; o tempo de execu&amp;#x00e7;&amp;#x00e3;o.
+</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Nenhuma das respostas acima.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+</questions></data>
+<hotpot-config-file>
+<global>
+<next-q-caption>Next Q</next-q-caption>
+<last-q-caption>Last Q</last-q-caption>
+<incorrect-indicator>X</incorrect-indicator>
+<font-size>small</font-size>
+<include-next-ex>1</include-next-ex>
+<contents-url>index.htm</contents-url>
+<font-face>Lucida Grande, Arial Unicode MS, Sans Serif</font-face>
+<include-scorm-12>0</include-scorm-12>
+<user-string-3></user-string-3>
+<user-string-2></user-string-2>
+<user-string-1></user-string-1>
+<vlink-color>#0000cc</vlink-color>
+<title-color>#000033</title-color>
+<correct-indicator>:-)</correct-indicator>
+<contents-caption>Index</contents-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<hint-caption>Hint</hint-caption>
+<email>you@yourplace.com</email>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<name-please>Please enter your name:</name-please>
+<formmail-url>http://your.server.address/cgi-bin/FormMail.pl</formmail-url>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<text-color>#000000</text-color>
+<page-bg-color>#ffffff</page-bg-color>
+<times-up>Your time has expired.</times-up>
+<nav-bar-color>#000066</nav-bar-color>
+<include-contents>1</include-contents>
+<your-score-is>Your score is:</your-score-is>
+<graphic-url></graphic-url>
+<link-color>#0000ff</link-color>
+<keypad-characters></keypad-characters>
+<show-also-correct>1</show-also-correct>
+<correct-first-time>Include score of questions answered correctly first time.</correct-first-time>
+<include-cgi>0</include-cgi>
+<ex-bg-color>#bbbbee</ex-bg-color>
+<ok-caption>OK</ok-caption>
+<check-caption>Check</check-caption>
+<include-back>1</include-back>
+</global>
+</hotpot-config-file>
+
+</hotpot-jquiz-file>
