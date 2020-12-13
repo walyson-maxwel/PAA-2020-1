@@ -1,0 +1,72 @@
+Algoritmo de Boyer-Moore
+
+1) O que é o algoritmo de Boyer-Moore?
+a) É um algoritmo de busca em strings - OK
+b) É um algoritmo de programação dinâmica
+c) É um algoritmo de busca em grafos
+d) Todas as anteriores
+e) Nenhuma das anteriores 
+
+2) Qual a complexidade de tempo do pior caso?
+a) O(mn), onde m é o comprimento do texto, e n o comprimento do padrão a ser buscado - OK
+b) O(m + n), onde m é o comprimento do texto, e n o comprimento do padrão a ser buscado
+c) O(n^m), onde m é o comprimento do texto, e n o comprimento do padrão a ser buscado
+d) O(mlogn), onde m é o comprimento do texto, e n o comprimento do padrão a ser buscado
+
+3) Qual a complexidade de tempo do melhor caso?
+a) O(mlogn), onde m é o comprimento do texto, e n o comprimento do padrão a ser buscado
+b) O(m + n), onde m é o comprimento do texto, e n o comprimento do padrão a ser buscado
+c) O(n), onde m é o comprimento do texto, e n o comprimento do padrão a ser buscado
+d) O(n/m), onde m é o comprimento do texto, e n o comprimento do padrão a ser buscado - OK
+
+4) A diferença entre o algoritmo de Boyer-Moore e algoritmo Navive é que o primeiro usa preprocessamento
+para poder shiftar mais de um caractere durante as comparações.
+a) Verdadeiro - OK
+b) Falso
+
+5) Sobre o Algoritmo KMP e o Boyer-Moore marque a opção correta
+a) Ambos utilizam pre-preprocessamento para shiftar mais de um caractere
+b) O pior caso do KMP é melhor ao pior caso do Boyer-Moore
+c) Apenas o Boyer-Moore utiliza preprocessamento
+d) Apenas as altenativas a e b estao corretas - OK
+
+6) Seja m o comprimento do texto, e n o comprimento do padrão a ser buscado.
+Qual a ideia do funcionamento do algoritmo de Boyer-Moore?
+a) Aplicar preprocessamento sobre o padrão
+b) Comparar o padrão com o texto da direita para a esquerda.
+c) Se o símbolo do padrão a ser buscado divergir do símbolo mais à direita do
+texto, então o padrão é deslocado m posições no texto.
+d) Todas acima - OK
+
+7) Qual das alternativas a seguir é o algoritmo mais rápido para busca em strings?
+a) Algoritmo de Boyer-Moore
+b) Algoritmo de String matching
+c) Algoritmo Quick search - OK
+d) Algoritmo Linear
+
+8) Qual dos algoritmos a seguir serve de base para o algoritmo Quick search?
+a) Algoritmo de Boyer-Moore - OK
+b) Algoritmo de String matching
+c) Algoritmo Quick search
+d) Algoritmo Linear
+
+9) Qual a complexidade do Quick search?
+a) O(n)
+b) O(log n)
+c) O(m+n) - OK
+d) O(mn)
+
+10) Quais tabelas de deslocamento de caracteres o algoritmo Quick search usa?
+a) Tabela de descolameto good-character
+b) Tabela de descolameto bad-character - OK
+c) Tabela de descolameto next-character
+d) As tabelas das opcoes a e b
+
+11) Qual é a complexidade de espaço do algoritmo Quick search?
+a) O(n) - OK
+b) O(log n)
+c) O(m+n)
+d) O(mn)
+
+12) 
+13)
