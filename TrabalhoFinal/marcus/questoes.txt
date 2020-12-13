@@ -7,31 +7,45 @@ Se a substring e o padrão estiverem dentro de uma determinada distância k um d
 O algoritmo calcula um conjunto de bitmasks contendo um bit para cada elemento do padrão.
 
 2 - Seja Σ o conjunto alfabeto, m o tamanho do pattern, n o tamanho do texto buscável e k = |Σ|, o tamanho do alfabeto do problema escolhido.
-Qual a complexidade de tempo de pré processamento do Algoritmo bitap?
-
+Qual a complexidade de espaço de pré processamento do Algoritmo bitap?
 a)-> Θ(m + k)
 b) Θ(m^k)
 c) Θ(m log k)
 d) Nenhuma das alternativas anteriores
 
-
 3 - Seja Σ o conjunto alfabeto, m o tamanho do pattern, n o tamanho do texto buscável e k = |Σ|, o tamanho do alfabeto do problema escolhido.
 Qual a complexidade de tempo de matching do Algoritmo bitap?
-
 a) O(n)
 b) O(n+m)
 c)-> O(mn)
 d) Nenhuma das alternativas anteriores
 
-4 - Qual a diferença
+4. Algoritmo quick search começa buscando do caracter mais a direita para o mais a esquerda.
+a) Verdadeiro
+b) -> Falso
 
-5 -
+5 - Qual é o pior caso de tempo de execução na fase de busca do algoritmo de Boyer-Moore?
+a) O(n)
+b) O(log n)
+c) O(m+n)
+d) -> O(mn)
 
-6 -
+6 - A fase de busca no algoritmo quick sort tem um bom comportamento prático.
+a) -> Verdadeiro
+b) Falso
 
-7 -
+7 - Quais tabelas de deslocamento de caracteres o algoritmo de busca de Boyer-Moore usa?
+a) tabelas de deslocamento good-character
+b) tabelas de deslocamento bad-character
+c) tabelas de deslocamento next-character
+d) -> ambas tabelas de deslocamento good-character e bad-character
 
-8 -
+8 - Dada a string de entrada = “ABCDABCATRYCARCABCSRT” e string de pattern = “CAT”.
+Encontre o primeiro índice da correspondência de padrão usando o algoritmo quick search.
+a) 2
+b) -> 6
+c) 11
+d) 14
 
 9 -
 
@@ -42,7 +56,6 @@ d) Nenhuma das alternativas anteriores
 12 -
 
 13 - Sobre as aplicações de algoritmos de String Matching:
-
 a) Podem ser utilizados em editores de texto, mecanismos de busca e bibliotecas digitais que precisem realizar
 correspondência de padrões em um texto ou banco de dados.
 b) Podem ser utilizados em seqüenciamento de DNA, encontrando mutação próxima, pesquisando
