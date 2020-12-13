@@ -1,0 +1,53 @@
+1 - O algoritmo Bitap também é conhecido como Algoritmo shift-or, shift-and ou Algoritmo Baeza-Yates-Gonnet.
+Qual é o objetivo desse algoritmo?
+
+É um algoritmo de string matching aproximada. O algoritmo fornece detalhes sobre se um determinado texto contém uma substring
+que é "aproximadamente igual" a um determinado padrão, onde a igualdade aproximada é definida em termos de distância Levenshtein.
+Se a substring e o padrão estiverem dentro de uma determinada distância k um do outro, o algoritmo os considera igual.
+O algoritmo calcula um conjunto de bitmasks contendo um bit para cada elemento do padrão.
+
+2 - Seja Σ o conjunto alfabeto, m o tamanho do pattern, n o tamanho do texto buscável e k = |Σ|, o tamanho do alfabeto do problema escolhido.
+Qual a complexidade de tempo de pré processamento do Algoritmo bitap?
+
+a)-> Θ(m + k)
+b) Θ(m^k)
+c) Θ(m log k)
+d) Nenhuma das alternativas anteriores
+
+
+3 - Seja Σ o conjunto alfabeto, m o tamanho do pattern, n o tamanho do texto buscável e k = |Σ|, o tamanho do alfabeto do problema escolhido.
+Qual a complexidade de tempo de matching do Algoritmo bitap?
+
+a) O(n)
+b) O(n+m)
+c)-> O(mn)
+d) Nenhuma das alternativas anteriores
+
+4 - Qual a diferença
+
+5 -
+
+6 -
+
+7 -
+
+8 -
+
+9 -
+
+10 -
+
+11 -
+
+12 -
+
+13 - Sobre as aplicações de algoritmos de String Matching:
+
+a) Podem ser utilizados em editores de texto, mecanismos de busca e bibliotecas digitais que precisem realizar
+correspondência de padrões em um texto ou banco de dados.
+b) Podem ser utilizados em seqüenciamento de DNA, encontrando mutação próxima, pesquisando
+estruturas antimicrobianas, desenvolvendo data warehouses locais para DNA, genes e proteínas.
+c) Algoritmos de correspondência de string aproximada são usados ​​na técnica de pesquisa de música moderna para recuperar
+notas do banco de dados musical.
+d) -> Todas as alternativas anteriores.
+e) Nenhuma das alternativas anteriores
