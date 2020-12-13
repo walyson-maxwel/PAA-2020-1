@@ -1,0 +1,88 @@
+DFA  algorithm
+
+1.  Qual objetivo do Algoritmo de string Matching baseado em Automatos Finitos Deterministicos?
+A) -> Utilizar DFA's para reconhecer padrões em strings.
+B) Utilizar DFA's para descobrir indices em strings.
+C) Nenhuma das Anteriores
+
+2. O que são Automatos Finitos Deterministicos?
+A) Modelos computacionais que podem ser considerados como Computador de uso geral.
+B) Modelos computacionais baseados em histórias de computação.
+C) Modelos computacionais que reconhecem a linguagem L= {ww^R| w pertence ao alfabeto Σ}.
+D) -> Modelos computacionais que reconhecem Linguagens Regulares.
+
+3. Quais linguagens são Reconhecidas por Automatos Finitos Deterministicos?
+A) Linguagens Sensíveis ao contexto.
+B) Linguágens Livres-de-Contexto.
+C) Linguágens Turing-Reconheciveis.
+D) -> Linguágens Regulares.
+
+4. A definição, "K = {Q, Σ, δ, q0, S}, onde Q é um conjunto de Estados Finito, Σ é um Alfabeto Finito, δ é a Função de Transição, q0 ∈ Q é o Estado inicial e S ⊆ Q é o conjunto de estados de Aceitação", representa que modelo computacional?
+A) Máquinas de Turing.
+B) Automatos com pilha.
+C) -> Automatos Finitos.
+D) Nenhuma das Anteriores.
+
+5. Qual alternativa não é a complexidade de tempo do Algoritmo DFA para casamento de Strings?
+
+A) O(n⁴)
+B) -> O(1)
+C) O(n²)
+D) O(n)
+
+6. Qual é a complexidade de tempo de DFA for string matching?
+A) -> O(n)
+B) O(log n)
+C) Nenhuma das Anteriores
+
+7. É necessário que, se string[1...n-1] e padrão[1...m-1], n>m ?
+A) -> Sim
+B) Não
+C) Talvez
+
+8. É um relevante para esse algoritmo saber qual o ultimo caractere do padrão?
+A)-> Sim
+B) Não
+C) Talvez
+
+9. A definição, "The DFA  A(x) =(Q, q0, T, E) recognizing the language Σ*x is defined as follows:
+      	Q is the set of all the prefixes of x: Q={epsilon, x[0], x[0 .. 1], ... , x[0 .. m-2], x};
+      	q0=epsilon;
+      	T={x};
+      	for q in Q (q is a prefix of x) and a in Sigma, (q, a, qa) is in E if and only if qa is also a prefix of x, otherwise (q, a, p) is in E such that p is the longest suffix of qa which is a prefix of x.",
+
+        pode ser considerada uma boa definição para um DFA no algoritmo de DFA for String Matching?
+
+A) Sim
+B) Não
+C) Talvez
+
+10. "The DFA  A(x) =(Q, q0, T, E) recognizing the language Σ*x(σ) is defined as follows:
+      	Q is the set of all the prefixes of x: Q={epsilon, x[0], x[0 .. 1], ... , x[0 .. m-2], x};
+      	q0=epsilon;
+      	T={x};
+      	for q in Q (q is a prefix of x) and a in Sigma, (q, a, qa) is in E if and only if qa is also a prefix of x, otherwise (q, a, p) is in E such that p is the longest suffix of qa which is a prefix of x.",
+
+        Construir A(x) pode ser construido em espaço:
+A) O(m).
+B)-> O(mσ).
+C) Nenhuma das alternativas.
+
+11. Para a cadeia txt= "AABAACAADAABAAABAA", buscamos o padrão ="AABA", quantas vezes encontraremos esse padrão?
+
+A)   1
+B)   2
+C)-> 3
+D) Nenhuma
+
+12. Para a cadeia txt= "AABAACAADAABAAABAA", buscamos o padrão ="AABA", a partir de quais índices, começando de 1, encontramos uma instância desse padrão?
+
+A) 1, 3, 5
+B) 1, 2, 10
+C) 1, 10, 14
+D) Nenhuma das alternativas
+
+13. Nesse método, criamos um AFD que aceita o padrão(pat[]) ou o texto completo(txt[])?
+A) Não há como saber.
+B) Para o Padrão.
+C) Para a String inteira.
