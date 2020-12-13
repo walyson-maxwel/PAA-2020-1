@@ -60,7 +60,7 @@
 <fixed>0</fixed>
 <question-type>1</question-type>
 <answers>
-<answer><text> O algoritmo de Horspool tem melhor complexidade de tempo no caso m&amp;#x00e9;dio</text>
+<answer><text>O algoritmo de Horspool tem melhor complexidade de tempo no caso m&amp;#x00e9;dio</text>
 <feedback></feedback>
 <correct>1</correct>
 <percent-correct>100</percent-correct>
@@ -105,7 +105,7 @@
 <correct>1</correct>
 <percent-correct>100</percent-correct>
 <include-in-mc-options>1</include-in-mc-options>
-</answer><answer><text> O(n), em que &quot;n&quot; &amp;#x00e9; o tamanho da string em que ser&amp;#x00e1; feita a busca.</text>
+</answer><answer><text>O(n), em que &quot;n&quot; &amp;#x00e9; o tamanho da string em que ser&amp;#x00e1; feita a busca.</text>
 <feedback></feedback>
 <correct>0</correct>
 <percent-correct>0</percent-correct>
@@ -123,15 +123,14 @@
 </answer></answers>
 </question-record>
 <question-record>
-<question> Qual a complexidade de tempo, em caso m&amp;#x00e9;dio, do algoritmo de Horspool?</question>
+<question>Qual a complexidade de tempo, em caso m&amp;#x00e9;dio, do algoritmo de Horspool?</question>
 <clue></clue>
 <category></category>
 <weighting>100</weighting>
 <fixed>0</fixed>
 <question-type>1</question-type>
 <answers>
-<answer><text>O(n), em que &quot;n&quot; &amp;#x00e9; o tamanho do padr&amp;#x00e3;o que ser&amp;#x00e1; buscado.
-</text>
+<answer><text>O(n), em que &quot;n&quot; &amp;#x00e9; o tamanho do padr&amp;#x00e3;o que ser&amp;#x00e1; buscado.</text>
 <feedback></feedback>
 <correct>0</correct>
 <percent-correct>0</percent-correct>
@@ -141,7 +140,7 @@
 <correct>0</correct>
 <percent-correct>0</percent-correct>
 <include-in-mc-options>1</include-in-mc-options>
-</answer><answer><text> O(n), em que &quot;n&quot; &amp;#x00e9; o tamanho da string em que ser&amp;#x00e1; feita a busca.</text>
+</answer><answer><text>O(n), em que &quot;n&quot; &amp;#x00e9; o tamanho da string em que ser&amp;#x00e1; feita a busca.</text>
 <feedback></feedback>
 <correct>1</correct>
 <percent-correct>100</percent-correct>
@@ -181,7 +180,7 @@
 <correct>0</correct>
 <percent-correct>0</percent-correct>
 <include-in-mc-options>1</include-in-mc-options>
-</answer><answer><text>Criar uma tabela hash com valores de hash para cada letra do padr&amp;#x00e3;o que ser&amp;#x00e1; buscado. </text>
+</answer><answer><text>Criar uma tabela hash com valores de hash para cada letra do padr&amp;#x00e3;o que ser&amp;#x00e1; buscado.</text>
 <feedback></feedback>
 <correct>1</correct>
 <percent-correct>100</percent-correct>
@@ -210,22 +209,19 @@
 <include-in-mc-options>1</include-in-mc-options>
 </answer><answer><text>Crie uma tabela T com 128 espa&amp;#x00e7;os.
    Para cada &quot;entrada&quot; em &quot;T&quot;, fa&amp;#x00e7;a entrada = tamanho(padrao)/2.
-   Para cada &quot;letra&quot; na posi&amp;#x00e7;&amp;#x00e3;o &quot;i&quot; do &quot;padr&amp;#x00e3;o&quot;, fa&amp;#x00e7;a T[letra/2] = tamanho(padrao)/2 - 1 - i.
-</text>
+   Para cada &quot;letra&quot; na posi&amp;#x00e7;&amp;#x00e3;o &quot;i&quot; do &quot;padr&amp;#x00e3;o&quot;, fa&amp;#x00e7;a T[letra/2] = tamanho(padrao)/2 - 1 - i.</text>
 <feedback></feedback>
 <correct>0</correct>
 <percent-correct>0</percent-correct>
 <include-in-mc-options>1</include-in-mc-options>
 </answer><answer><text>Crie uma tabela T com 256 espa&amp;#x00e7;os.
    Para cada &quot;entrada&quot; em &quot;T&quot;, fa&amp;#x00e7;a entrada = tamanho(padrao).
-   Para cada &quot;letra&quot; do &quot;padr&amp;#x00e3;o&quot;, fa&amp;#x00e7;a T[letra] = tamanho(padrao) - 1.
-</text>
+   Para cada &quot;letra&quot; do &quot;padr&amp;#x00e3;o&quot;, fa&amp;#x00e7;a T[letra] = tamanho(padrao) - 1.</text>
 <feedback></feedback>
 <correct>0</correct>
 <percent-correct>0</percent-correct>
 <include-in-mc-options>1</include-in-mc-options>
-</answer><answer><text>Nenhuma das alternativas acima.
-</text>
+</answer><answer><text>Nenhuma das alternativas acima.</text>
 <feedback></feedback>
 <correct>0</correct>
 <percent-correct>0</percent-correct>
@@ -245,7 +241,7 @@
 <fixed>0</fixed>
 <question-type>1</question-type>
 <answers>
-<answer><text> &amp;#x03b8;(a * m), em que &quot;a&quot; &amp;#x00e9; o tamanho do alfabeto e &quot;m&quot; &amp;#x00e9; o tamanho do padr&amp;#x00e3;o.</text>
+<answer><text>&amp;#x03b8;(a * m), em que &quot;a&quot; &amp;#x00e9; o tamanho do alfabeto e &quot;m&quot; &amp;#x00e9; o tamanho do padr&amp;#x00e3;o.</text>
 <feedback></feedback>
 <correct>0</correct>
 <percent-correct>0</percent-correct>
@@ -255,7 +251,7 @@
 <correct>1</correct>
 <percent-correct>100</percent-correct>
 <include-in-mc-options>1</include-in-mc-options>
-</answer><answer><text> &amp;#x03b8;(m*n), em que &quot;n&quot; &amp;#x00e9; o tamanho da string e &quot;m&quot; &amp;#x00e9; o tamanho do padr&amp;#x00e3;o.</text>
+</answer><answer><text>&amp;#x03b8;(m*n), em que &quot;n&quot; &amp;#x00e9; o tamanho da string e &quot;m&quot; &amp;#x00e9; o tamanho do padr&amp;#x00e3;o.</text>
 <feedback></feedback>
 <correct>0</correct>
 <percent-correct>0</percent-correct>
@@ -295,8 +291,7 @@
 <correct>0</correct>
 <percent-correct>0</percent-correct>
 <include-in-mc-options>1</include-in-mc-options>
-</answer><answer><text>Verificar se a primeira entrada da tabela concide com a primeira letra da string.
-</text>
+</answer><answer><text>Verificar se a primeira entrada da tabela concide com a primeira letra da string.</text>
 <feedback></feedback>
 <correct>0</correct>
 <percent-correct>0</percent-correct>
@@ -357,16 +352,14 @@ Na etapa de compara&amp;#x00e7;&amp;#x00e3;o do algoritmo, o seguinte procedimen
 <answers>
 <answer><text>Come&amp;#x00e7;ando do &amp;#x00ed;ndice da &amp;#x00fa;ltima letra na substring (nesse caso, letra &apos;d&apos;):
         Se a letra concide, ent&amp;#x00e3;o cheque seu valor na tabela e pule o n&amp;#x00fa;mero de passos que a tabela indica.
-        Se n&amp;#x00e3;o coincide, cheque o valor da letra na tabela e pule o n&amp;#x00fa;mero de espa&amp;#x00e7;os que a tabela indica.
-</text>
+        Se n&amp;#x00e3;o coincide, cheque o valor da letra na tabela e pule o n&amp;#x00fa;mero de espa&amp;#x00e7;os que a tabela indica.</text>
 <feedback></feedback>
 <correct>1</correct>
 <percent-correct>100</percent-correct>
 <include-in-mc-options>1</include-in-mc-options>
-</answer><answer><text> Come&amp;#x00e7;ando do &amp;#x00ed;ndice da &amp;#x00fa;ltima letra na substring (ness caso, letra &apos;d&apos;):
+</answer><answer><text>Come&amp;#x00e7;ando do &amp;#x00ed;ndice da &amp;#x00fa;ltima letra na substring (ness caso, letra &apos;d&apos;):
         Se a letra concide, ent&amp;#x00e3;o compare a letra seguinte, &apos;c&apos; no caso.
-        Se n&amp;#x00e3;o coincide, v&amp;#x00e1; para a posi&amp;#x00e7;&amp;#x00e3;o seguinte da string.
-</text>
+        Se n&amp;#x00e3;o coincide, v&amp;#x00e1; para a posi&amp;#x00e7;&amp;#x00e3;o seguinte da string.</text>
 <feedback></feedback>
 <correct>0</correct>
 <percent-correct>0</percent-correct>
@@ -377,7 +370,7 @@ Na etapa de compara&amp;#x00e7;&amp;#x00e3;o do algoritmo, o seguinte procedimen
 <correct>0</correct>
 <percent-correct>0</percent-correct>
 <include-in-mc-options>1</include-in-mc-options>
-</answer><answer><text>    Come&amp;#x00e7;ando do &amp;#x00ed;ndice da &amp;#x00fa;ltima letra na substring (nesse caso, letra &apos;d&apos;):
+</answer><answer><text>Come&amp;#x00e7;ando do &amp;#x00ed;ndice da &amp;#x00fa;ltima letra na substring (nesse caso, letra &apos;d&apos;):
         Se a letra concide, ent&amp;#x00e3;o cheque seu valor na tabela e pule o n&amp;#x00fa;mero de passos que a tabela indica.
         Se n&amp;#x00e3;o coincide, finalize a execu&amp;#x00e7;&amp;#x00e3;o do algoritmo reportando que o padr&amp;#x00e3;o n&amp;#x00e3;o foi encontrado.</text>
 <feedback></feedback>
@@ -444,7 +437,7 @@ Na etapa de compara&amp;#x00e7;&amp;#x00e3;o do algoritmo, o seguinte procedimen
 <correct>0</correct>
 <percent-correct>0</percent-correct>
 <include-in-mc-options>1</include-in-mc-options>
-</answer><answer><text>Chegar&amp;#x00e1; no fim da string e n&amp;#x00e3;o conseguir&amp;#x00e1; fazer match de todos os caracteres da substring. </text>
+</answer><answer><text>Chegar&amp;#x00e1; no fim da string e n&amp;#x00e3;o conseguir&amp;#x00e1; fazer match de todos os caracteres da substring.</text>
 <feedback></feedback>
 <correct>1</correct>
 <percent-correct>100</percent-correct>
@@ -469,7 +462,7 @@ Na etapa de compara&amp;#x00e7;&amp;#x00e3;o do algoritmo, o seguinte procedimen
 <fixed>0</fixed>
 <question-type>1</question-type>
 <answers>
-<answer><text> Barras de busca, auto-corretores, analizadores de string e Big Data.</text>
+<answer><text>Barras de busca, auto-corretores, analizadores de string e Big Data.</text>
 <feedback></feedback>
 <correct>1</correct>
 <percent-correct>100</percent-correct>
@@ -497,8 +490,7 @@ Na etapa de compara&amp;#x00e7;&amp;#x00e3;o do algoritmo, o seguinte procedimen
 </answer></answers>
 </question-record>
 <question-record>
-<question>&quot;O algoritmo de Harspool &amp;#x00e9; objetivamente melhor que o algoritmo de Boyer-Moore, em quaisquer condi&amp;#x00e7;&amp;#x00f5;es&quot;. Essa afirmativa &amp;#x00e9;:
-</question>
+<question>&quot;O algoritmo de Harspool &amp;#x00e9; objetivamente melhor que o algoritmo de Boyer-Moore, em quaisquer condi&amp;#x00e7;&amp;#x00f5;es&quot;. Essa afirmativa &amp;#x00e9;:</question>
 <clue></clue>
 <category></category>
 <weighting>100</weighting>
@@ -520,8 +512,7 @@ Na etapa de compara&amp;#x00e7;&amp;#x00e3;o do algoritmo, o seguinte procedimen
 <correct>0</correct>
 <percent-correct>0</percent-correct>
 <include-in-mc-options>1</include-in-mc-options>
-</answer><answer><text>Falsa, pois o algoritmo de Boyer-Moore tem complexidade de tempo menor ou igual em todos os casos.
-</text>
+</answer><answer><text>Falsa, pois o algoritmo de Boyer-Moore tem complexidade de tempo menor ou igual em todos os casos.</text>
 <feedback></feedback>
 <correct>0</correct>
 <percent-correct>0</percent-correct>
@@ -534,7 +525,7 @@ Na etapa de compara&amp;#x00e7;&amp;#x00e3;o do algoritmo, o seguinte procedimen
 </answer></answers>
 </question-record>
 <question-record>
-<question> O pior caso, quanto a complexidade de tempo, do algoritmo de Harspool ocorre quando:</question>
+<question>O pior caso, quanto a complexidade de tempo, do algoritmo de Harspool ocorre quando:</question>
 <clue></clue>
 <category></category>
 <weighting>100</weighting>
@@ -586,8 +577,7 @@ Na etapa de compara&amp;#x00e7;&amp;#x00e3;o do algoritmo, o seguinte procedimen
 <correct>0</correct>
 <percent-correct>0</percent-correct>
 <include-in-mc-options>1</include-in-mc-options>
-</answer><answer><text> Falsa, pois o algoritmo de Harspool &amp;#x00e9; de O(m), portanto, quanto maior o tamanho de m, maior ser&amp;#x00e1; o tempo de execu&amp;#x00e7;&amp;#x00e3;o.
-</text>
+</answer><answer><text>Falsa, pois o algoritmo de Harspool &amp;#x00e9; de O(m), portanto, quanto maior o tamanho de m, maior ser&amp;#x00e1; o tempo de execu&amp;#x00e7;&amp;#x00e3;o.</text>
 <feedback></feedback>
 <correct>0</correct>
 <percent-correct>0</percent-correct>
@@ -604,18 +594,95 @@ Na etapa de compara&amp;#x00e7;&amp;#x00e3;o do algoritmo, o seguinte procedimen
 <include-in-mc-options>1</include-in-mc-options>
 </answer></answers>
 </question-record>
+<question-record>
+<question>Se compararmos o algoritmo de Horspool com o algoritmo de Boyer-Moore, podemos observar que:</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>A complexidade tempo de ambos algoritmos em melhor caso &amp;#x00e9; a mesma.</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O algoritmo de Boyer-Moore tem maior complexidade de espa&amp;#x00e7;o m&amp;#x00e9;dia</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Apesar de ser mais r&amp;#x00e1;pido, o algoritmo de Horspool n&amp;#x00e3;o funciona para determinados tipos de string, ao passo que o algoritmo de Boyer-Moore funciona para qualquer string.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>N&amp;#x00e3;o h&amp;#x00e1; diferen&amp;#x00e7;as quanto a complexidade de tempo desses algoritmos.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Podemos afirmar que o caso m&amp;#x00e9;dio do algoritmo de Horspool pertence a O(n^2), em que &quot;n&quot; &amp;#x00e9; o tamanho da string de entrada?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Sim.</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>N&amp;#x00e3;o, pois o algoritmo de Horspool tem O(n*m), em que &quot;n&quot; &amp;#x00e9; o tamanho da string de entrada e &quot;m&quot; &amp;#x00e9; o tamanho da substring.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>N&amp;#x00e3;o, pois o algoritmo de Horspool tem &amp;#x03a9;(n*m), em que &quot;n&quot; &amp;#x00e9; o tamanho da string de entrada e &quot;m&quot; &amp;#x00e9; o tamanho da substring</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>N&amp;#x00e3;o, pois o algoritmo de Horspool tem &amp;#x03b8;(n), em que &quot;n&quot; &amp;#x00e9; o tamanho da string de entrada.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
 </questions></data>
 <hotpot-config-file>
 <global>
+<clue-caption>Clue</clue-caption>
+<separate-js-file>0</separate-js-file>
 <next-q-caption>Next Q</next-q-caption>
 <last-q-caption>Last Q</last-q-caption>
 <incorrect-indicator>X</incorrect-indicator>
 <font-size>small</font-size>
+<completed-so-far>Questions completed so far: </completed-so-far>
 <include-next-ex>1</include-next-ex>
+<restart-caption>Restart</restart-caption>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<include-timer>0</include-timer>
 <contents-url>index.htm</contents-url>
 <font-face>Lucida Grande, Arial Unicode MS, Sans Serif</font-face>
 <include-scorm-12>0</include-scorm-12>
 <user-string-3></user-string-3>
+<show-correct-first-time>0</show-correct-first-time>
 <user-string-2></user-string-2>
 <user-string-1></user-string-1>
 <vlink-color>#0000cc</vlink-color>
@@ -623,7 +690,10 @@ Na etapa de compara&amp;#x00e7;&amp;#x00e3;o do algoritmo, o seguinte procedimen
 <correct-indicator>:-)</correct-indicator>
 <contents-caption>Index</contents-caption>
 <show-all-questions-caption>Show all questions</show-all-questions-caption>
+<undo-caption>Undo</undo-caption>
+<header-code></header-code>
 <hint-caption>Hint</hint-caption>
+<check-button-caption>Check</check-button-caption>
 <email>you@yourplace.com</email>
 <show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
 <name-please>Please enter your name:</name-please>
@@ -644,9 +714,42 @@ Na etapa de compara&amp;#x00e7;&amp;#x00e3;o do algoritmo, o seguinte procedimen
 <include-cgi>0</include-cgi>
 <ex-bg-color>#bbbbee</ex-bg-color>
 <ok-caption>OK</ok-caption>
+<process-for-rtl>0</process-for-rtl>
 <check-caption>Check</check-caption>
 <include-back>1</include-back>
+<next-correct-letter>Next correct letter is: </next-correct-letter>
 </global>
+<jquiz>
+<next-caption>Next</next-caption>
+<instructions></instructions>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<completed-so-far>Completed so far:</completed-so-far>
+<correct-list>Correct answers:</correct-list>
+<header-code></header-code>
+<include-hint>1</include-hint>
+<include-keypad>0</include-keypad>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<case-sensitive>0</case-sensitive>
+<continuous-scoring>1</continuous-scoring>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<correct-answers>Correct answers: </correct-answers>
+<questions-to-show>2</questions-to-show>
+<shuffle-answers>0</shuffle-answers>
+<guess-correct>Correct!</guess-correct>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<show-limited-questions>0</show-limited-questions>
+<shuffle-questions>0</shuffle-questions>
+<include-show-answer>1</include-show-answer>
+<show-correct-first-time>1</show-correct-first-time>
+<separate-javascript-file>0</separate-javascript-file>
+<delete-caption>Delete This Flashcard</delete-caption>
+<show-answer-caption>Show answer</show-answer-caption>
+</jquiz>
 </hotpot-config-file>
 
 </hotpot-jquiz-file>
