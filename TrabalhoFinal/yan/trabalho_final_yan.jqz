@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about="">
+</rdf:Description>
+</rdf:RDF>
+<version>6</version>
+<data>
+<title></title>
+<timer>
+<include-timer>0</include-timer>
+<seconds>59</seconds>
+</timer>
+<reading>
+<reading-text></reading-text>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+</reading>
+<questions>
+<question-record>
+<question>Para essa quest&amp;#x00e3;o, vamos utilizar o algoritmo Naive String Matcher.
+
+Em termos de complexidade de tempo, qual o pior caso para que esse algoritmo encontre a primeira ocorr&amp;#x00ea;ncia de um padr&amp;#x00e3;o de texto?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>&amp;#x0398;((n - m + 1)(m - 1))</text>
+<feedback>Correto!</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>&amp;#x0398;((n)(m - 1))</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>&amp;#x0398;((n - m)(m - 1))</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>&amp;#x0398;((n - m + 1)(m))</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Para essa quest&amp;#x00e3;o, vamos utilizar o algoritmo Naive String Matcher.
+
+Supondo que o padr&amp;#x00e3;o P e um texto T s&amp;#x00e3;o textos randomicamente selecionados de tamanho m e n, respectivamente, do alfabeto &amp;#x03a3;d = {0, 1, ..., d-1}, onde d &amp;#x003E;= 2. Qual o n&amp;#x00fa;mero esperado de compara&amp;#x00e7;&amp;#x00f5;es caractere a caractere feito pelo loop na linha 4 do algoritmo.</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>(n - m) * (1 - d^1 / 1 - d^1) &amp;#x003C;= 2(n - m +1) </text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>(n - m) * (1 - d^2 / 1 - d^1) &amp;#x003C;= 2(n - m +1) </text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>(n - m + 1) * (1 - d^m / 1 - d^1) &amp;#x003C;= 2(n - m +1) </text>
+<feedback>Correto!</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>(n - m + 1) * (d^m / d^1) &amp;#x003C;= (n - m +1) </text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Para essa quest&amp;#x00e3;o, vamos utilizar o algoritmo Naive String Matcher.
+
+Em termos de complexidade, qual o pior caso de tempo para esse algoritmo, de uma forma geral?
+</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>&amp;#x0398;((n - m + 1) (n +1))</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>&amp;#x0398;((n - m + 1) m)</text>
+<feedback>Correto!</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>&amp;#x0398;((n - m + 1) (m +1))</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>&amp;#x0398;((n - m + 1) m * n)</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Para essa quest&amp;#x00e3;o, vamos utilizar o algoritmo Naive String Matcher.
+
+Considere a string a^n  (uma string com n as) e o padr&amp;#x00e3;o a^m. Caso m seja dado por m=[n/2], qual a complexidade do pior caso, em nota&amp;#x00e7;&amp;#x00e3;o big O?
+</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>&amp;#x0398;(n)</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>&amp;#x0398;(2n)</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>&amp;#x0398;(n * n/2)</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>&amp;#x0398;(n^2)</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Para essa quest&amp;#x00e3;o, vamos utilizar o algoritmo Naive String Matcher.
+
+O algoritmo Naive String Matcher pode ser considerado um bom algoritmo para string matching?
+</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Sim.</text>
+<feedback></feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>N&amp;#x00e3;o.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Para essa quest&amp;#x00e3;o, vamos utilizar o algoritmo Naive String Matcher.
+
+Por que o Naive String Matcher n&amp;#x00e3;o &amp;#x00e9; muito ineficiente para o problema de string matching?
+</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Porque as informa&amp;#x00e7;&amp;#x00f5;es que haviam sido obtidas sobre o texto em uma itera&amp;#x00e7;&amp;#x00e3;o s&amp;#x00e3;o totalmente ignoradas nas pr&amp;#x00f3;ximas.</text>
+<feedback>Correto!</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Porque ele n&amp;#x00e3;o retorna o valor correto, em alguns casos.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Porque ele pula algumas partes da string e pode ter que retornar para calcul&amp;#x00e1;-las.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Porque ele faz o c&amp;#x00e1;lculo do string matching letra a letra, e armazena muitas informa&amp;#x00e7;&amp;#x00f5;es in&amp;#x00fa;teis.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Para essa quest&amp;#x00e3;o, vamos utilizar o algoritmo Naive String Matcher.
+
+Quando esse algoritmo pode ser interessante de ser usado?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Quando forem comparados textos pequenos.</text>
+<feedback>Correto!</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Quando forem comparados textos enormes.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Quando forem comparados textos muito grandes e complexos.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Quando h&amp;#x00e1; a necessidade de pr&amp;#x00e9;-processamento dos textos</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Para essa quest&amp;#x00e3;o, vamos utilizar o algoritmo Naive String Matcher.
+
+Quando ocorre o melhor caso desse algoritmo?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Ocorre sempre.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Ocorre quando o padr&amp;#x00e3;o &amp;#x00e9; repetido v&amp;#x00e1;rias vezes do texto a fazer o matching.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Ocorre quando o primeiro caracter do padr&amp;#x00e3;o definido &amp;#x00e9; o primeiro do texto a fazer o matching.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Ocorre quando o primeiro caracter do padr&amp;#x00e3;o definido n&amp;#x00e3;o est&amp;#x00e1; presente no texto.</text>
+<feedback>Correto!</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Para essa quest&amp;#x00e3;o, vamos utilizar o algoritmo Naive String Matcher.
+
+Qual o n&amp;#x00fa;mero de compara&amp;#x00e7;&amp;#x00f5;es no melhor caso?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>O(n)</text>
+<feedback>Correto!</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O(2n)</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O(n*m)</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>O(n&amp;#x00b2;)</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Para essa quest&amp;#x00e3;o, vamos utilizar o algoritmo Naive String Matcher.
+
+Selecione as op&amp;#x00e7;&amp;#x00f5;es em que o pior caso pode ocorrer:</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>4</question-type>
+<answers>
+<answer><text>Quando todos os os caracteres do texto e do padr&amp;#x00e3;o s&amp;#x00e3;o os mesmos.</text>
+<feedback>Correto!</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Quando apenas o &amp;#x00fa;ltimo caracter do padr&amp;#x00e3;o &amp;#x00e9; diferente.</text>
+<feedback>Correto!</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Quando o primeiro caracter do padr&amp;#x00e3;o n&amp;#x00e3;o est&amp;#x00e1; presente no texto.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Todas as op&amp;#x00e7;&amp;#x00f5;es.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>Para essa quest&amp;#x00e3;o, vamos utilizar o algoritmo Naive String Matcher.
+
+Quais s&amp;#x00e3;o as vantagens desse algoritmo?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>N&amp;#x00e3;o precisa de pr&amp;#x00e9;-processamento.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>N&amp;#x00e3;o necessita de espa&amp;#x00e7;o extra.
+</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>As compara&amp;#x00e7;&amp;#x00f5;es podem ser feitas em qualquer ordem.</text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Todas as op&amp;#x00e7;&amp;#x00f5;es acima.</text>
+<feedback>Correto!</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+</questions></data>
+<hotpot-config-file>
+<global>
+<separate-js-file>0</separate-js-file>
+<clue-caption>Clue</clue-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<incorrect-indicator>X</incorrect-indicator>
+<font-size>small</font-size>
+<include-next-ex>1</include-next-ex>
+<restart-caption>Restart</restart-caption>
+<contents-url>contents.htm</contents-url>
+<include-timer>0</include-timer>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<include-scorm-12>0</include-scorm-12>
+<user-string-3>three</user-string-3>
+<show-correct-first-time>0</show-correct-first-time>
+<user-string-2>two</user-string-2>
+<user-string-1>one</user-string-1>
+<vlink-color>#0000CC</vlink-color>
+<title-color>#000033</title-color>
+<correct-indicator>:-)</correct-indicator>
+<contents-caption>Index</contents-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<undo-caption>Undo</undo-caption>
+<header-code></header-code>
+<hint-caption>Hint</hint-caption>
+<check-button-caption>Check</check-button-caption>
+<email>you@yourserver.com</email>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<name-please>Please enter your name:</name-please>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<text-color>#000000</text-color>
+<page-bg-color>#ffffff</page-bg-color>
+<times-up>Your time is over!</times-up>
+<nav-bar-color>#000066</nav-bar-color>
+<include-contents>1</include-contents>
+<your-score-is>Your score is </your-score-is>
+<graphic-url></graphic-url>
+<link-color>#0000FF</link-color>
+<keypad-characters></keypad-characters>
+<show-also-correct>1</show-also-correct>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<include-cgi>0</include-cgi>
+<ex-bg-color>#bbbbee</ex-bg-color>
+<ok-caption>OK</ok-caption>
+<process-for-rtl>0</process-for-rtl>
+<check-caption>Check</check-caption>
+<include-back>1</include-back>
+<next-correct-letter>Next correct letter is: </next-correct-letter>
+</global>
+<jquiz>
+<next-caption>Next</next-caption>
+<instructions>JQuiz Instructions</instructions>
+<enter-a-guess>Please enter a guess, then check.</enter-a-guess>
+<completed-so-far>Completed so far:</completed-so-far>
+<correct-list>Correct answers:</correct-list>
+<header-code></header-code>
+<include-hint>0</include-hint>
+<include-keypad>0</include-keypad>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<partly-incorrect>Your answer is partly incorrect.</partly-incorrect>
+<guess-incorrect>Not perfect yet. Please try again.</guess-incorrect>
+<case-sensitive>0</case-sensitive>
+<continuous-scoring>1</continuous-scoring>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<exercise-subtitle></exercise-subtitle>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<questions-to-show>10</questions-to-show>
+<shuffle-answers>0</shuffle-answers>
+<guess-correct>Correct!</guess-correct>
+<next-correct-letter>Next correct letter is: </next-correct-letter>
+<show-limited-questions>0</show-limited-questions>
+<shuffle-questions>0</shuffle-questions>
+<include-show-answer>1</include-show-answer>
+<show-correct-first-time>0</show-correct-first-time>
+<separate-javascript-file>0</separate-javascript-file>
+<delete-caption>Delete This Flashcard</delete-caption>
+<show-answer-caption>Show Answer</show-answer-caption>
+</jquiz>
+</hotpot-config-file>
+
+</hotpot-jquiz-file>
