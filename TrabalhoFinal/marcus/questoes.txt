@@ -47,13 +47,25 @@ b) -> 6
 c) 11
 d) 14
 
-9 -
+9 - O algoritmo Rabin- Karp pode ser usado para descobrir plágio numa sentença.
+a) -> Veradadeiro
+b) Falso
 
-10 -
+10 - Qual é a complexidade de tempo do algoritmo Quick Search?
+a) O(n)
+b) O(log n)
+c)-> O(m+n)
+d) O(mn)
 
-11 -
+11 - Algoritmo quick search começa buscando do caracter mais a esquerda para o mais a direita.
+a) -> Verdadeiro
+b) Falso
 
-12 -
+12 - Qual o princípio básico no algoritmo Rabin Karp?
+a) -> "Hashing"
+b) Ordenamento
+c) "Augmenting"
+d) Programação Dinâmica
 
 13 - Sobre as aplicações de algoritmos de String Matching:
 a) Podem ser utilizados em editores de texto, mecanismos de busca e bibliotecas digitais que precisem realizar
